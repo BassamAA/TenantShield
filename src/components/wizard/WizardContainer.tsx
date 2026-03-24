@@ -10,6 +10,7 @@ import Step4Preview from './Step4Preview';
 import { generateLetter } from '@/lib/templateEngine';
 
 const STORAGE_KEY = 'ts_wizard_formdata';
+const SESSION_KEY = 'ts_stripe_session';
 
 const DEFAULT_FORM_DATA: WizardFormData = {
   jurisdiction: '',
@@ -70,6 +71,8 @@ export default function WizardContainer({
 
     if (params.get('success') === 'true') {
       const saved = localStorage.getItem(STORAGE_KEY);
+      const sessionId = params.get('session_id');
+      if (sessionId) localStorage.setItem(SESSION_KEY, sessionId);
       if (saved) {
         try {
           const restored: WizardFormData = JSON.parse(saved);

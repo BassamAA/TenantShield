@@ -17,7 +17,25 @@ export default function Step4Preview({ letter, onBack, isPaid: initialPaid = fal
   const [isPaid, setIsPaid] = useState(devBypass || initialPaid);
   const [isDownloading, setIsDownloading] = useState(false);
   const [downloadError, setDownloadError] = useState<string | null>(null);
+  const [portalLoading, setPortalLoading] = useState(false);
   const justPaid = initialPaid && !devBypass;
+
+  const handleManageBilling = async () => {
+    const sessionId = typeof window !== 'undefined' ? localStorage.getItem('ts_stripe_session') : null;
+    if (!sessionId) return;
+    setPortalLoading(true);
+    try {
+      const res = await fetch('/api/customer-portal', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sessionId }),
+      });
+      const data = await res.json();
+      if (data.url) window.location.href = data.url;
+    } finally {
+      setPortalLoading(false);
+    }
+  };
 
   const handleDownloadPDF = async () => {
     setIsDownloading(true);
@@ -132,6 +150,16 @@ export default function Step4Preview({ letter, onBack, isPaid: initialPaid = fal
               <li>If no response by the deadline, contact your housing authority</li>
             </ol>
           </div>
+
+          {typeof window !== 'undefined' && localStorage.getItem('ts_stripe_session') && (
+            <button
+              onClick={handleManageBilling}
+              disabled={portalLoading}
+              className="w-full border border-gray-200 text-gray-500 text-sm py-3 rounded-xl hover:border-gray-300 hover:text-gray-700 disabled:opacity-50 transition-all duration-200"
+            >
+              {portalLoading ? 'Opening...' : 'Manage Billing / Cancel Subscription'}
+            </button>
+          )}
         </div>
       ) : (
         <PaymentGate letter={letter} onBeforeCheckout={onBeforeCheckout} />
