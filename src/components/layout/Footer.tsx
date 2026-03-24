@@ -29,12 +29,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3">Common Issues</h4>
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3">Resources</h4>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li><Link href="/wizard" className="hover:text-white transition-colors">Mold &amp; Moisture Letters</Link></li>
-              <li><Link href="/wizard" className="hover:text-white transition-colors">No Heat Complaints</Link></li>
-              <li><Link href="/wizard" className="hover:text-white transition-colors">Pest Infestation Letters</Link></li>
-              <li><Link href="/wizard" className="hover:text-white transition-colors">Broken Lock Demand Letters</Link></li>
+              <li><Link href="/blog" className="hover:text-white transition-colors">Tenant Rights Blog</Link></li>
+              <li><Link href="/blog/demand-letter-landlord-template" className="hover:text-white transition-colors">How to Write a Demand Letter</Link></li>
+              <li><Link href="/blog/landlord-ignores-complaints" className="hover:text-white transition-colors">When Landlord Ignores You</Link></li>
+              <li><Link href="/blog/mold-in-rental-landlord-responsible" className="hover:text-white transition-colors">Mold — Is Landlord Responsible?</Link></li>
             </ul>
           </div>
         </div>

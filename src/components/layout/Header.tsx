@@ -20,6 +20,9 @@ export default function Header() {
           <Link href="/#how-it-works" className="text-sm text-gray-600 hover:text-navy-800 transition-colors">
             How It Works
           </Link>
+          <Link href="/blog" className="text-sm text-gray-600 hover:text-navy-800 transition-colors">
+            Blog
+          </Link>
           <Link href="/#faq" className="text-sm text-gray-600 hover:text-navy-800 transition-colors">
             FAQ
           </Link>

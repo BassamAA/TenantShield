@@ -2,18 +2,96 @@ import Hero from '@/components/landing/Hero';
 import HowItWorks from '@/components/landing/HowItWorks';
 import FAQ from '@/components/landing/FAQ';
 import Link from 'next/link';
+import JsonLd from '@/components/seo/JsonLd';
 import { JURISDICTIONS } from '@/data/jurisdictions';
 import { ISSUES } from '@/data/issues';
 import { ISSUE_URL_MAP } from '@/data/issues';
+import { BLOG_POSTS } from '@/data/blog-posts';
 
 const FEATURED_JURISDICTIONS = ['ontario', 'quebec', 'california', 'new-york'];
 const FEATURED_ISSUES = ['mold-moisture', 'no-heat', 'pest-infestation', 'broken-lock', 'electrical-hazard', 'no-hot-water'];
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://tenant-letter.com';
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'TenantShield',
+  url: BASE_URL,
+  description: 'Generate a legally-worded landlord demand letter citing your actual tenant protection laws.',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${BASE_URL}/wizard`,
+    'query-input': 'required name=search_term_string',
+  },
+};
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'TenantShield — Landlord Demand Letter Generator',
+  serviceType: 'Document Preparation',
+  description:
+    'Generate a professionally worded landlord violation demand letter citing the real tenant rights laws in your jurisdiction.',
+  url: BASE_URL,
+  provider: { '@type': 'Organization', name: 'TenantShield', url: BASE_URL },
+  areaServed: ['Ontario', 'Quebec', 'British Columbia', 'Alberta', 'California', 'New York', 'Texas', 'Florida', 'Illinois'],
+  offers: {
+    '@type': 'Offer',
+    price: '9.99',
+    priceCurrency: 'USD',
+    description: 'One-time PDF download of your demand letter',
+  },
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Is sending a demand letter to my landlord legal?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes. Tenants have a legal right to assert their rights in writing. A formal written demand creates a paper trail and is often the first required step before filing a complaint with a housing authority.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can my landlord retaliate against me for sending this letter?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Landlord retaliation for exercising tenant rights is illegal in virtually every jurisdiction TenantShield covers. In Ontario, Section 83 of the Residential Tenancies Act protects tenants. In California, Civil Code § 1942.5 explicitly prohibits retaliatory evictions.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What if my landlord ignores the letter?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Ignoring a formal written demand strengthens your case. Your letter serves as evidence that you provided proper written notice. You can then file a complaint with the relevant housing authority — such as the Landlord and Tenant Board (Ontario) or Code Enforcement (California).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Is TenantShield a law firm?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. TenantShield is a document preparation service. The letters generated do not constitute legal advice. For legal advice specific to your situation, consult a licensed lawyer, paralegal, or tenant rights organization.',
+      },
+    },
+  ],
+};
 
 export default function HomePage() {
   const featuredJurisdictions = JURISDICTIONS.filter((j) => FEATURED_JURISDICTIONS.includes(j.id));
   const featuredIssues = ISSUES.filter((i) => FEATURED_ISSUES.includes(i.id));
 
   return (
+    <>
+      <JsonLd data={websiteSchema} />
+      <JsonLd data={serviceSchema} />
+      <JsonLd data={faqSchema} />
     <main>
       <Hero />
       <HowItWorks />
@@ -115,6 +193,41 @@ export default function HomePage() {
 
       <FAQ />
 
+      {/* Blog preview */}
+      <section className="py-16 sm:py-20 px-4 bg-white border-t border-gray-100">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex items-end justify-between mb-8">
+            <div>
+              <p className="text-trust-green text-xs font-bold uppercase tracking-widest mb-1">Tenant Rights Guides</p>
+              <h2 className="text-2xl sm:text-3xl font-bold text-navy-900">Know Before You Send</h2>
+            </div>
+            <Link href="/blog" className="text-sm font-semibold text-navy-700 hover:text-navy-900 transition-colors hidden sm:block">
+              All articles →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {BLOG_POSTS.slice(0, 3).map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}`}
+                className="group block bg-gray-50 rounded-xl border border-gray-200 p-5 hover:border-navy-300 hover:bg-navy-50 transition-all duration-200"
+              >
+                <p className="text-xs text-gray-400 mb-2">{post.readingTimeMinutes} min read</p>
+                <h3 className="font-bold text-navy-900 text-sm leading-snug mb-2 group-hover:text-navy-700 transition-colors">
+                  {post.title}
+                </h3>
+                <p className="text-xs text-gray-500 line-clamp-2">{post.excerpt}</p>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-6 sm:hidden">
+            <Link href="/blog" className="text-sm font-semibold text-navy-700 hover:text-navy-900 transition-colors">
+              All articles →
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 sm:py-20 px-4 bg-navy-900">
         <div className="max-w-2xl mx-auto text-center">
@@ -136,5 +249,6 @@ export default function HomePage() {
         </div>
       </section>
     </main>
+    </>
   );
 }

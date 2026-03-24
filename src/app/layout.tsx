@@ -38,7 +38,7 @@ export const metadata: Metadata = {
       'Generate a professionally worded landlord demand letter citing your actual tenant rights laws. Ontario, Quebec, California, New York, and more.',
     images: [
       {
-        url: '/og-image.png',
+        url: '/og-image.svg',
         width: 1200,
         height: 630,
         alt: 'TenantShield — Landlord Violation Letter Generator',

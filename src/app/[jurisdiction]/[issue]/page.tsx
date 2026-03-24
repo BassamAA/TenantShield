@@ -2,9 +2,12 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import WizardContainer from '@/components/wizard/WizardContainer';
+import JsonLd from '@/components/seo/JsonLd';
 import { JURISDICTIONS, JURISDICTION_LABELS } from '@/data/jurisdictions';
 import { ISSUES, ISSUE_LABELS, ISSUE_URL_MAP } from '@/data/issues';
 import { Jurisdiction, IssueCategory } from '@/types';
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://tenant-letter.com';
 
 // Map URL slugs to internal IDs
 const JURISDICTION_URL_MAP: Record<string, Jurisdiction> = Object.fromEntries(
@@ -130,7 +133,31 @@ export default async function JurisdictionIssuePage({ params }: PageProps) {
   const seoCopy = SEO_COPY[issue];
   const issueInfo = ISSUES.find((i) => i.id === issue)!;
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: BASE_URL },
+      { '@type': 'ListItem', position: 2, name: jurisdictionName, item: `${BASE_URL}/${raw.jurisdiction}` },
+      { '@type': 'ListItem', position: 3, name: issueName, item: `${BASE_URL}/${raw.jurisdiction}/${raw.issue}` },
+    ],
+  };
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: `${issueName} Demand Letter — ${jurisdictionName}`,
+    description: seoCopy.description,
+    url: `${BASE_URL}/${raw.jurisdiction}/${raw.issue}`,
+    provider: { '@type': 'Organization', name: 'TenantShield', url: BASE_URL },
+    areaServed: jurisdictionName,
+    offers: { '@type': 'Offer', price: '9.99', priceCurrency: 'USD' },
+  };
+
   return (
+    <>
+      <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={serviceSchema} />
     <main className="min-h-screen bg-gray-50">
       {/* SEO Hero Banner */}
       <div className="bg-navy-900 py-10 px-4">
@@ -194,5 +221,6 @@ export default async function JurisdictionIssuePage({ params }: PageProps) {
         </div>
       </section>
     </main>
+    </>
   );
 }

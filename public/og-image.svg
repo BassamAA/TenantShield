@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f2340;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Accent bar -->
+  <rect x="0" y="0" width="8" height="630" fill="#4a9e6b" />
+
+  <!-- Shield icon background -->
+  <circle cx="140" cy="220" r="60" fill="rgba(255,255,255,0.08)" />
+  <!-- Shield shape -->
+  <path d="M140 175 L170 190 L170 225 Q170 250 140 262 Q110 250 110 225 L110 190 Z" fill="#4a9e6b" />
+  <path d="M130 220 L138 228 L155 211" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Brand name -->
+  <text x="218" y="210" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="white" letter-spacing="2">Tenant</text>
+  <text x="218" y="210" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="#4a9e6b" letter-spacing="2" x="430">Shield</text>
+
+  <!-- Workaround: two text spans as separate elements -->
+  <text x="218" y="210" font-family="Georgia, serif" font-size="52" font-weight="bold" fill="white">Tenant<tspan fill="#4a9e6b">Shield</tspan></text>
+
+  <!-- Tagline -->
+  <text x="218" y="255" font-family="Arial, sans-serif" font-size="22" fill="#94b8d6">Tenant Document Preparation Service</text>
+
+  <!-- Divider -->
+  <rect x="80" y="295" width="1040" height="2" fill="rgba(255,255,255,0.15)" />
+
+  <!-- Headline -->
+  <text x="80" y="370" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="white">Force Your Landlord to Fix It.</text>
+  <text x="80" y="428" font-family="Georgia, serif" font-size="46" font-weight="bold" fill="#4a9e6b">Legally.</text>
+
+  <!-- Sub -->
+  <text x="80" y="490" font-family="Arial, sans-serif" font-size="24" fill="#94b8d6">Generate a demand letter citing your real tenant rights laws.</text>
+  <text x="80" y="525" font-family="Arial, sans-serif" font-size="24" fill="#94b8d6">Ontario · Quebec · California · New York · and more.</text>
+
+  <!-- URL -->
+  <text x="1120" y="600" font-family="Arial, sans-serif" font-size="18" fill="rgba(255,255,255,0.4)" text-anchor="end">tenant-letter.com</text>
+</svg>
