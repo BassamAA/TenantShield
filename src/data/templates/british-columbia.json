@@ -1,0 +1,370 @@
+[
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "mold-moisture",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in a state of repair that complies with health, safety and housing standards required by law, and must provide the rental unit in a state that makes it suitable for occupation by a tenant."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 — Maintenance Standards",
+        "description": "Rental units must be maintained free from dampness, moisture infiltration, and conditions conducive to the growth of mold or mildew, which constitute failures to meet minimum habitability standards."
+      },
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 59",
+        "description": "A tenant may apply to the Residential Tenancy Branch for dispute resolution where a landlord has failed to comply with the Act, including the obligation to maintain the rental unit in a habitable state of repair."
+      }
+    ],
+    "housingCode": "Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 (Maintenance Standards)",
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to formally notify you of a serious mold and moisture problem at the above-referenced rental premises. This letter constitutes formal written notice pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78, and demands that you fulfill your statutory maintenance obligations immediately.",
+    "violationDescription": "There is a significant mold and/or moisture problem currently affecting the rental unit at the above address. Visible mold growth and/or persistent moisture intrusion constitutes a serious health hazard — particularly to occupants with respiratory conditions — and renders the unit non-compliant with the health and safety standards mandated by British Columbia's residential tenancy legislation.",
+    "legalBasis": "Pursuant to Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78, you are legally obligated to maintain the rental unit in a state of repair that complies with health, safety, and housing standards required by law, and to keep it suitable for occupation. The presence of mold or unresolved moisture intrusion is a direct violation of this statutory duty, as well as a breach of the maintenance standards prescribed under the Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3.",
+    "demands": [
+      "Conduct a thorough professional inspection of all affected areas within 5 business days of receipt of this letter",
+      "Provide a written remediation plan prepared by a qualified mold remediation professional within 7 calendar days of this letter",
+      "Identify and permanently repair the source of moisture causing the mold growth within the stated deadline",
+      "Complete all necessary mold remediation work within 14 calendar days of receipt of this letter",
+      "Provide written confirmation upon completion of all remediation work, including the name and credentials of the contractor engaged"
+    ],
+    "escalationWarning": "If you fail to complete the required remediation within 14 days of receipt of this letter, I will file an application for dispute resolution with the Residential Tenancy Branch (RTB) pursuant to Section 59 of the Residential Tenancy Act, seeking an order compelling repairs, a rent reduction for the period during which the unit has been non-habitable, and compensation under Section 77 of the Act. I may also report the condition to the local Health Authority as a health hazard.",
+    "closingStatement": "I trust you will treat this matter with the urgency it deserves. Please confirm receipt of this letter and your intended course of action in writing within five (5) business days."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "no-heat",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in a state of repair that complies with health, safety and housing standards, including the provision of functional heating systems."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 and RTB Policy Guideline 5",
+        "description": "Landlords must provide and maintain heating systems capable of maintaining a minimum indoor temperature of 22 degrees Celsius (71.6°F) in all habitable rooms during the heating season."
+      },
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 59",
+        "description": "A tenant may apply for dispute resolution for an urgent hearing where a landlord's breach of the Act creates an emergency, including failure to provide adequate heat."
+      }
+    ],
+    "housingCode": "Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3; RTB Policy Guideline 5 (Heating Standards — minimum 22°C)",
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to provide urgent formal notice that the supply of heat has been interrupted at the above-referenced rental unit. The absence of heat constitutes an emergency situation that renders the unit immediately unfit for habitation. This letter is written pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78, and requires your immediate response.",
+    "violationDescription": "As of the date referenced above, the rental unit is without adequate heat. British Columbia's Residential Tenancy Branch Policy Guideline 5 requires landlords to provide heating systems capable of maintaining a minimum indoor temperature of 22°C. The complete absence of heat during cold weather is a serious health and safety risk to all occupants and constitutes an urgent maintenance failure.",
+    "legalBasis": "Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 requires you to maintain the rental unit in compliance with health and safety standards at all times. RTB Policy Guideline 5 specifies that a landlord must provide a functioning heating system capable of maintaining 22°C in all habitable rooms. The current failure to provide heat is a direct and serious breach of these obligations.",
+    "demands": [
+      "Restore adequate heat to the rental unit IMMEDIATELY and no later than 24 hours from receipt of this letter",
+      "Inspect, repair, or replace the heating system and identify the root cause of the failure",
+      "Provide written confirmation of the repairs completed and the date and time heat was fully restored"
+    ],
+    "escalationWarning": "If heat is not restored within 24 hours of receipt of this letter, I will immediately apply to the Residential Tenancy Branch for an expedited dispute resolution hearing pursuant to Section 59 of the Residential Tenancy Act, seeking an order compelling restoration of heat, a rent reduction for the period without heat, and compensation for any consequential losses. I will also contact my local municipality's bylaw enforcement office to report the condition as a health and safety emergency.",
+    "closingStatement": "This is a time-sensitive emergency. Your immediate response and action are required. Please confirm receipt of this notice without delay."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "no-hot-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in a state of repair that complies with health, safety and housing standards, including the continuous provision of hot and cold running water."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 — Maintenance Standards",
+        "description": "Plumbing systems must be maintained in good working order and must supply adequate hot and cold water at all times to all fixtures designed to receive such supply."
+      },
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 77",
+        "description": "A tenant is entitled to compensation for a landlord's failure to comply with the Act, including failure to maintain basic habitability services such as hot water."
+      }
+    ],
+    "housingCode": "Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 (Plumbing and Water Supply Standards)",
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to provide urgent formal notice that hot water has been interrupted at the above-referenced rental unit. The absence of hot water renders the unit immediately unsuitable for habitation and constitutes an emergency under British Columbia's residential tenancy law. This letter is written pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78.",
+    "violationDescription": "The rental unit has been without hot water since the date noted above. Hot water is a fundamental component of a habitable dwelling, essential for hygiene and sanitation. Its absence constitutes a serious failure by the landlord to maintain the rental unit in a state of repair suitable for occupation under Section 32(1) of the Residential Tenancy Act.",
+    "legalBasis": "Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 imposes a non-waivable obligation on landlords to maintain rental units in compliance with health and safety standards, which includes the continuous supply of hot water. The Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 prescribes plumbing maintenance standards requiring adequate hot and cold water supply at all times. The current interruption of hot water is a direct breach of these statutory obligations.",
+    "demands": [
+      "Restore hot water to the rental unit IMMEDIATELY and no later than 24 hours from receipt of this letter",
+      "Inspect, repair, or replace the water heating equipment as necessary to restore continuous hot water supply",
+      "Provide written confirmation of the repairs completed and the date and time hot water was fully restored"
+    ],
+    "escalationWarning": "If hot water is not restored within 24 hours of receipt of this letter, I will file an application for dispute resolution with the Residential Tenancy Branch (RTB) pursuant to Section 59 of the Residential Tenancy Act, seeking an order compelling restoration of hot water service, a rent reduction for the period without hot water, and compensation pursuant to Section 77 of the Act. I will also report the condition to the local health authority as a sanitation hazard.",
+    "closingStatement": "This matter requires your immediate attention. Please confirm receipt and advise of the corrective action being taken."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "pest-infestation",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in a state of repair that complies with health, safety and housing standards and is suitable for occupation, which includes maintaining the premises free from pest infestation."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 — Maintenance Standards",
+        "description": "Landlords are required to maintain rental properties in a condition that complies with applicable health and safety requirements, including measures to control and eliminate pests."
+      },
+      {
+        "act": "Public Health Act, S.B.C. 2008, c. 28",
+        "section": "Section 55 — Health Hazards",
+        "description": "A pest infestation in a residential dwelling may constitute a health hazard under the Public Health Act, giving health authorities power to order landlords to take remedial action."
+      }
+    ],
+    "housingCode": "Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 (Health and Maintenance Standards)",
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to formally notify you of a serious pest infestation at the above-referenced rental premises. This letter constitutes formal written notice pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78, and demands that you fulfill your statutory obligation to eradicate the infestation promptly.",
+    "violationDescription": "The rental unit is currently experiencing a pest infestation. The presence of pests constitutes a serious health hazard, impairs my ability to use and enjoy the premises, and renders the unit non-compliant with the health and safety standards required under British Columbia's residential tenancy legislation. Failure to address a known infestation is a breach of the landlord's ongoing maintenance obligations.",
+    "legalBasis": "Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 requires you to maintain the rental unit in a state of repair suitable for occupation and in compliance with all health and safety standards required by law. The Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 prescribes maintenance standards that encompass pest control. A known and unresolved pest infestation is a direct breach of these obligations for which you are liable.",
+    "demands": [
+      "Engage a licensed pest control professional to conduct a comprehensive inspection of the rental unit and affected common areas within 5 business days of receipt of this letter",
+      "Provide written confirmation of the scheduled pest control treatment, including the name and license number of the pest control company",
+      "Complete professional pest extermination treatment of all affected areas within 14 calendar days of receipt of this letter",
+      "Implement a follow-up treatment schedule as recommended by the licensed pest control professional",
+      "Identify and seal all known pest entry points to prevent re-infestation",
+      "Provide written confirmation upon completion of all treatments and remedial measures"
+    ],
+    "escalationWarning": "If you fail to take the required remediation steps within 14 days of receipt of this letter, I will apply to the Residential Tenancy Branch (RTB) for dispute resolution pursuant to Section 59 of the Residential Tenancy Act, seeking an order compelling treatment, a rent reduction for the period during which the infestation has impaired habitability, and compensation under Section 77. I may also report the condition to the local Public Health Officer under the Public Health Act, S.B.C. 2008, c. 28.",
+    "closingStatement": "Please confirm receipt of this letter and provide your written remediation plan within five (5) business days."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "broken-lock",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in a state of repair that complies with health and safety standards, which includes maintaining functional locks and security devices on all exterior doors and windows."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 — Maintenance Standards",
+        "description": "Exterior doors and windows of rental units must be fitted with adequate locks and security devices maintained in proper working order at all times."
+      },
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 59",
+        "description": "A tenant may apply for dispute resolution where a landlord has failed to comply with a maintenance obligation, including urgent security matters warranting expedited hearing."
+      }
+    ],
+    "housingCode": "Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 (Security and Lock Standards)",
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to demand emergency repair of a broken lock or security device at the above-referenced rental unit. This constitutes an urgent security emergency that directly compromises my personal safety. This letter is written pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78, and demands your immediate response.",
+    "violationDescription": "A lock or security device on the rental unit — specifically an exterior door or entry point — is currently broken, damaged, or non-functional. This defect leaves the unit physically unsecured and exposes me to an immediate risk to my personal safety and the security of my belongings. A non-functioning lock is a fundamental breach of the landlord's duty to maintain the unit in compliance with health and safety standards.",
+    "legalBasis": "Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 requires you to maintain the rental unit in compliance with health and safety standards at all times. The Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 prescribes maintenance standards that include the requirement to provide and maintain adequate locks and security devices. A broken lock constitutes an immediate health and safety violation for which you bear full responsibility.",
+    "demands": [
+      "Dispatch a licensed locksmith or qualified tradesperson to repair or replace the broken lock IMMEDIATELY, and no later than 24 hours from receipt of this letter",
+      "Ensure that all entry points to the rental unit are fully secured upon completion of repairs",
+      "Provide written confirmation of the completed repair, including the name of the tradesperson and the date and time of completion"
+    ],
+    "escalationWarning": "If the broken lock is not repaired within 24 hours of receipt of this letter, I will file an urgent application for dispute resolution with the Residential Tenancy Branch (RTB) pursuant to Section 59 of the Residential Tenancy Act. I will also contact local police to document the security deficiency, and may arrange emergency lock repair at your expense under my rights to remedy a landlord's failure to maintain the unit.",
+    "closingStatement": "This is an urgent security emergency. Please confirm receipt and advise of the repair timeline immediately."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "plumbing-failure",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in a state of repair that complies with health, safety and housing standards, including the maintenance of functional plumbing systems."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 — Maintenance Standards",
+        "description": "Plumbing systems, fixtures, and connections in rental units must be maintained in good working order and capable of supplying adequate water at all times."
+      },
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 77",
+        "description": "A tenant is entitled to compensation from the landlord for a failure to comply with the Act, including failure to maintain plumbing systems in proper working order."
+      }
+    ],
+    "housingCode": "Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 (Plumbing Maintenance Standards)",
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to formally notify you of a plumbing failure affecting the above-referenced rental unit, and to demand prompt repair pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78. This letter constitutes your formal written notice and starts the clock on your obligation to remediate.",
+    "violationDescription": "There is currently a plumbing failure at the rental unit that is disrupting the normal functioning of plumbing fixtures and/or causing water damage or loss of water service. This failure impairs my use and enjoyment of the premises, may constitute a health or property damage risk if left unaddressed, and represents a direct breach of your maintenance obligations under British Columbia law.",
+    "legalBasis": "Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 requires you to maintain the rental unit in a state of repair that complies with health and safety standards, including the proper functioning of all plumbing systems. The Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 sets out specific maintenance standards for plumbing systems and water supply. The current plumbing failure is a breach of these statutory obligations.",
+    "demands": [
+      "Arrange for a licensed plumber to inspect the plumbing failure within 5 business days of receipt of this letter",
+      "Complete all necessary plumbing repairs to restore full functionality within 14 calendar days of receipt of this letter",
+      "Provide written confirmation of the completed repair, including the plumber's name, license number, and date of completion"
+    ],
+    "escalationWarning": "If the plumbing failure is not repaired within 14 days of receipt of this letter, I will apply to the Residential Tenancy Branch (RTB) for dispute resolution pursuant to Section 59 of the Residential Tenancy Act, seeking an order compelling repairs and compensation under Section 77 of the Act for any losses incurred as a result of the failure. I may also report the condition to the local municipality's bylaw enforcement office.",
+    "closingStatement": "Please confirm receipt of this letter and advise of your repair timeline within three (3) business days."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "electrical-hazard",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in compliance with health and safety standards, including maintaining all electrical systems in a safe condition."
+      },
+      {
+        "act": "Safety Standards Act, S.B.C. 2003, c. 39 (administered by BC Safety Authority / Technical Safety BC)",
+        "section": "Applicable electrical safety standards and permits",
+        "description": "All electrical systems in residential buildings in British Columbia must comply with the BC Electrical Safety Regulation and be maintained in a safe condition by the responsible party, including the building owner."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 — Maintenance Standards",
+        "description": "Electrical wiring, panels, outlets, and fixtures in rental units must be maintained in safe working order and comply with applicable safety standards."
+      }
+    ],
+    "housingCode": "BC Electrical Safety Regulation under the Safety Standards Act, S.B.C. 2003, c. 39; Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3",
+    "regulatoryBody": "Residential Tenancy Branch (RTB) and Technical Safety BC (BC Safety Authority)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to provide urgent formal notice of a serious electrical hazard at the above-referenced rental unit. This constitutes a life safety emergency under British Columbia law and requires your immediate response. This letter is written pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78, and the Safety Standards Act, S.B.C. 2003, c. 39.",
+    "violationDescription": "There is currently an electrical hazard at the rental unit that poses an immediate risk of fire, electrical shock, or other serious harm to persons and property. Electrical hazards such as exposed wiring, sparking outlets, tripped breakers that will not reset, or burning smells from electrical fixtures represent imminent dangers that must be addressed as a matter of extreme urgency.",
+    "legalBasis": "Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 requires you to maintain the rental unit in compliance with health and safety standards, which includes the safety of all electrical systems. The Safety Standards Act, S.B.C. 2003, c. 39 and the BC Electrical Safety Regulation impose mandatory obligations on building owners to ensure electrical systems meet applicable safety codes. The current electrical hazard constitutes a serious breach of your legal obligations and an imminent danger to the occupants.",
+    "demands": [
+      "Immediately isolate or de-energize the source of the electrical hazard to prevent risk of fire or injury",
+      "Engage a licensed electrician registered with Technical Safety BC to inspect the electrical system IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Provide written documentation of the electrician's findings, the scope of required repairs, and the remediation plan",
+      "Complete all necessary electrical repairs to bring the system into full compliance with BC electrical safety standards"
+    ],
+    "escalationWarning": "If this electrical hazard is not addressed within 24 hours, I will contact Technical Safety BC (BC Safety Authority) to report an unsafe electrical installation, file an urgent application for dispute resolution with the Residential Tenancy Branch (RTB), and notify the local fire department if I believe there is an imminent fire risk. Technical Safety BC has authority to order emergency disconnections, inspect the premises, and impose penalties for unsafe electrical conditions.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required. Please confirm receipt of this notice and advise of the corrective action being taken without delay."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "no-running-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in a state of repair suitable for occupation and in compliance with health and safety standards, which includes maintaining a continuous supply of running water."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 — Maintenance Standards",
+        "description": "Plumbing systems must be maintained to supply adequate cold and hot running water to all fixtures at all times; interruption of water supply renders the unit unsuitable for occupation."
+      },
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 77",
+        "description": "A tenant is entitled to compensation for loss resulting from a landlord's failure to maintain the rental unit in compliance with the Act, including loss resulting from the interruption of basic utilities."
+      }
+    ],
+    "housingCode": "Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 (Water Supply Maintenance Standards)",
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to formally notify you that running water has been interrupted at the above-referenced rental unit. The absence of running water renders the unit immediately unfit for habitation and constitutes an emergency requiring urgent attention. This letter is written pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78.",
+    "violationDescription": "The rental unit is currently without running water. The absence of running water makes it impossible for me to meet basic sanitation, hygiene, and hydration needs in my own home, rendering the unit wholly unsuitable for occupation. This constitutes an urgent and serious breach of your maintenance obligations under British Columbia law.",
+    "legalBasis": "Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 requires you to maintain the rental unit in a state suitable for occupation and in compliance with health and safety standards at all times. The Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 prescribes maintenance standards requiring continuous supply of running water to all fixtures. The interruption of running water is a direct and serious breach of your statutory obligations.",
+    "demands": [
+      "Restore running water to the rental unit IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Identify and repair the cause of the water supply failure",
+      "Provide written confirmation of the date and time running water was fully restored"
+    ],
+    "escalationWarning": "If running water is not restored within 24 hours of receipt of this letter, I will immediately file an urgent application for dispute resolution with the Residential Tenancy Branch (RTB) pursuant to Section 59 of the Residential Tenancy Act, seeking an order compelling restoration of water service, a rent reduction for the period without water, and compensation under Section 77. I will also contact the local health authority and municipal bylaw office to report the condition.",
+    "closingStatement": "This is an urgent matter. Please confirm receipt and advise of the restoration timeline immediately."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "fire-safety",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Fire Services Act, R.S.B.C. 1996, c. 144 and BC Fire Code (B.C. Reg. 11/2022)",
+        "section": "Part 2 — Fire Safety in Buildings",
+        "description": "Building owners are required to maintain fire safety equipment — including smoke alarms, carbon monoxide detectors, fire extinguishers, and exit routes — in proper working order and in compliance with the BC Fire Code at all times."
+      },
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain the rental unit in compliance with health and safety standards required by law, including all fire safety requirements imposed by the BC Fire Code and Fire Services Act."
+      },
+      {
+        "act": "Safety Standards Act, S.B.C. 2003, c. 39",
+        "section": "Applicable safety standards for residential buildings",
+        "description": "Property owners must comply with all applicable safety standards, which include fire safety requirements for residential buildings."
+      }
+    ],
+    "housingCode": "BC Fire Code, B.C. Reg. 11/2022; Fire Services Act, R.S.B.C. 1996, c. 144",
+    "regulatoryBody": "Residential Tenancy Branch (RTB) and BC Office of the Fire Commissioner",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to formally notify you of a serious fire safety violation at the above-referenced rental unit. This constitutes a life safety emergency under British Columbia law and requires your immediate attention. This letter is written pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78, the Fire Services Act, R.S.B.C. 1996, c. 144, and the BC Fire Code.",
+    "violationDescription": "There is currently a fire safety violation at the rental unit that poses an immediate and serious risk to the lives of all occupants. This may include non-functioning smoke alarms or carbon monoxide detectors, blocked or inaccessible fire exits, missing or discharged fire extinguishers, or other conditions that violate the BC Fire Code. The failure to maintain adequate fire safety measures is both a statutory violation and a direct threat to life safety.",
+    "legalBasis": "The BC Fire Code (B.C. Reg. 11/2022) and the Fire Services Act, R.S.B.C. 1996, c. 144 impose mandatory obligations on building owners to maintain all fire safety equipment and egress routes in compliance with fire safety standards. Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 further requires compliance with all applicable health and safety standards. The current fire safety deficiency constitutes a serious and urgent breach of these obligations.",
+    "demands": [
+      "Immediately address the fire safety deficiency described above",
+      "Inspect, repair, or replace all smoke alarms and carbon monoxide detectors within 24 hours, ensuring they are installed and operational on every floor and in every sleeping area",
+      "Ensure all fire exits and egress routes are clear, unobstructed, and fully functional",
+      "Provide written confirmation of all corrective actions taken, including dates and the names of any contractors or service providers engaged"
+    ],
+    "escalationWarning": "If the fire safety deficiency is not immediately corrected, I will contact the BC Office of the Fire Commissioner and the local fire department, who have authority under the Fire Services Act and BC Fire Code to issue orders requiring immediate compliance and to impose substantial fines. I will also file an application for dispute resolution with the Residential Tenancy Branch (RTB) for remedies under the Residential Tenancy Act.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required. Please confirm receipt and advise of corrective action taken."
+  },
+  {
+    "jurisdiction": "british-columbia",
+    "issue": "structural-damage",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+        "section": "Section 32(1)",
+        "description": "A landlord must maintain a rental unit in a state of repair that complies with health, safety and housing standards, including maintaining structural components of the premises in a safe and sound condition."
+      },
+      {
+        "act": "Residential Tenancy Regulation, B.C. Reg. 477/03",
+        "section": "Part 3 — Maintenance Standards",
+        "description": "Structural elements of the rental unit and residential complex, including foundations, walls, ceilings, floors and roofs, must be maintained in a structurally sound and safe condition."
+      },
+      {
+        "act": "Local Government Act, R.S.B.C. 2015, c. 1 / Vancouver Charter, S.B.C. 1953, c. 55 (applicable municipal building standards)",
+        "section": "Applicable property standards and building inspection authority",
+        "description": "Municipal governments in British Columbia have authority under the Local Government Act and Vancouver Charter to enforce property maintenance standards and to order owners to repair structurally unsafe buildings."
+      }
+    ],
+    "housingCode": "Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 (Structural Maintenance Standards)",
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "openingParagraph": "I am writing to formally notify you of structural damage affecting the above-referenced rental premises, and to demand prompt repair pursuant to the Residential Tenancy Act, S.B.C. 2002, c. 78. This letter constitutes your formal written notice of the deficiency.",
+    "violationDescription": "There is significant structural damage to the rental unit or residential complex that compromises the structural integrity of the premises and may pose a safety risk to all occupants. Structural damage — including failing walls, ceilings, floors, foundations, or roofing — renders the premises partially or wholly unfit for habitation and is a serious breach of the landlord's maintenance obligations under British Columbia law.",
+    "legalBasis": "Section 32(1) of the Residential Tenancy Act, S.B.C. 2002, c. 78 requires you to maintain the rental unit in a state of repair that complies with health, safety, and housing standards, including maintaining the structural integrity of the premises. The Residential Tenancy Regulation, B.C. Reg. 477/03, Part 3 prescribes specific standards for the maintenance of structural elements. The current structural damage constitutes a direct breach of these obligations.",
+    "demands": [
+      "Engage a qualified structural engineer or licensed building contractor to assess the structural damage within 5 business days of receipt of this letter",
+      "Provide a written assessment and repair plan within 10 calendar days of receipt of this letter, including a timeline for completion of all repairs",
+      "Complete all necessary structural repairs within 14 calendar days of receipt of this letter",
+      "Provide written confirmation of all completed repairs, including contractor information and date of completion"
+    ],
+    "escalationWarning": "If you fail to take the required remediation steps within 14 days of receipt of this letter, I will apply to the Residential Tenancy Branch (RTB) for dispute resolution pursuant to Section 59 of the Residential Tenancy Act, seeking an order compelling repairs, a rent reduction, and compensation under Section 77 of the Act. I will also report the structural deficiency to the municipal Building Inspection department, which has authority under the Local Government Act to issue orders requiring repair of unsafe structures.",
+    "closingStatement": "Please confirm receipt of this letter and provide your written remediation plan within five (5) business days."
+  }
+]

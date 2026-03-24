@@ -20,6 +20,13 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const { plan, currency = 'USD', letterData } = body;
 
+    if (!['one-time', 'subscription'].includes(plan)) {
+      return NextResponse.json({ error: 'Invalid plan' }, { status: 400 });
+    }
+    if (!['USD', 'CAD'].includes(currency)) {
+      return NextResponse.json({ error: 'Invalid currency' }, { status: 400 });
+    }
+
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000';
     const successUrl = `${baseUrl}/wizard?success=true&session_id={CHECKOUT_SESSION_ID}`;
     const cancelUrl  = `${baseUrl}/wizard?cancelled=true`;

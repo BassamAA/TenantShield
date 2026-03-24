@@ -12,10 +12,12 @@ interface Props {
 
 export default function PaymentGate({ letter, onBeforeCheckout }: Props) {
   const [loading, setLoading] = useState<'one-time' | 'subscription' | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const { currency, symbol, oneTimePrice, subPrice, loading: geoLoading } = useCurrency();
 
   const handleCheckout = async (plan: 'one-time' | 'subscription') => {
     setLoading(plan);
+    setError(null);
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',
@@ -41,7 +43,7 @@ export default function PaymentGate({ letter, onBeforeCheckout }: Props) {
       }
     } catch (err) {
       console.error('Checkout error:', err);
-      alert('Something went wrong. Please try again.');
+      setError('Something went wrong. Please try again.');
     } finally {
       setLoading(null);
     }
@@ -142,6 +144,12 @@ export default function PaymentGate({ letter, onBeforeCheckout }: Props) {
           </button>
         </div>
       </div>
+
+      {error && (
+        <p className="text-center text-sm text-red-600 bg-red-50 border border-red-200 rounded-xl px-4 py-3 mb-3">
+          {error}
+        </p>
+      )}
 
       <p className="text-center text-xs text-gray-400">
         Payments processed securely by Stripe. By purchasing, you agree to our{' '}

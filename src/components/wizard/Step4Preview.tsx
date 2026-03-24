@@ -8,7 +8,7 @@ import { useState } from 'react';
 interface Props {
   letter: GeneratedLetter;
   onBack: () => void;
-  isPaid?: boolean;          // true when returning from Stripe success redirect
+  isPaid?: boolean;
   onBeforeCheckout: () => void;
 }
 
@@ -16,14 +16,18 @@ export default function Step4Preview({ letter, onBack, isPaid: initialPaid = fal
   const devBypass = process.env.NEXT_PUBLIC_DEV_BYPASS_PAYMENT === 'true';
   const [isPaid, setIsPaid] = useState(devBypass || initialPaid);
   const [isDownloading, setIsDownloading] = useState(false);
+  const [downloadError, setDownloadError] = useState<string | null>(null);
+  const justPaid = initialPaid && !devBypass;
 
   const handleDownloadPDF = async () => {
     setIsDownloading(true);
+    setDownloadError(null);
     try {
       const res = await fetch('/api/generate-pdf', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ letter }),
+        signal: AbortSignal.timeout(60_000),
       });
 
       if (!res.ok) throw new Error('PDF generation failed');
@@ -36,8 +40,10 @@ export default function Step4Preview({ letter, onBack, isPaid: initialPaid = fal
       a.click();
       URL.revokeObjectURL(url);
     } catch (err) {
-      console.error('PDF download error:', err);
-      alert('PDF generation failed. Please try again.');
+      const msg = err instanceof Error && err.name === 'TimeoutError'
+        ? 'PDF generation timed out. Please try again.'
+        : 'PDF generation failed. Please try again.';
+      setDownloadError(msg);
     } finally {
       setIsDownloading(false);
     }
@@ -52,9 +58,24 @@ export default function Step4Preview({ letter, onBack, isPaid: initialPaid = fal
         </div>
       )}
 
+      {/* Payment success banner */}
+      {justPaid && (
+        <div className="mb-5 bg-trust-green/10 border border-trust-green/30 rounded-xl px-4 py-3 flex items-center gap-3">
+          <div className="w-8 h-8 bg-trust-green rounded-full flex items-center justify-center flex-shrink-0">
+            <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+            </svg>
+          </div>
+          <div>
+            <p className="text-sm font-bold text-trust-green">Payment confirmed!</p>
+            <p className="text-xs text-gray-600">Your letter is unlocked. Download it below.</p>
+          </div>
+        </div>
+      )}
+
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-2xl font-bold text-navy-900">Your Letter is Ready</h2>
-        {isPaid && (
+        {isPaid && !justPaid && (
           <span className="flex items-center gap-1.5 text-trust-green text-sm font-semibold">
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
@@ -95,6 +116,12 @@ export default function Step4Preview({ letter, onBack, isPaid: initialPaid = fal
               </>
             )}
           </button>
+
+          {downloadError && (
+            <p className="text-center text-sm text-red-600 bg-red-50 border border-red-200 rounded-xl px-4 py-3">
+              {downloadError}
+            </p>
+          )}
 
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-4">
             <p className="text-sm text-blue-800 font-semibold mb-1">How to use your letter:</p>

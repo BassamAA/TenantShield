@@ -1,0 +1,372 @@
+[
+  {
+    "jurisdiction": "new-york",
+    "issue": "mold-moisture",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "Every lease of residential premises includes an implied warranty that the premises are fit for human habitation and that there are no conditions dangerous, hazardous or detrimental to life, health or safety; mold constitutes a violation of this warranty."
+      },
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2017.2 — Inspection and Remediation of Mold",
+        "description": "Owners of multiple dwellings are required to inspect for and remediate mold conditions affecting more than 10 square feet; a failure to remediate known mold constitutes a Class B or Class C housing maintenance violation depending on severity."
+      },
+      {
+        "act": "NYC Housing Maintenance Code (Administrative Code § 27-2013)",
+        "section": "§ 27-2013 — Maintenance of Buildings",
+        "description": "Owners must maintain all parts of a dwelling in good repair, and must keep it in a clean and sanitary condition; the presence of mold or moisture intrusion constitutes a failure to maintain in good repair."
+      }
+    ],
+    "housingCode": "NYC Housing Maintenance Code; NYC Admin Code § 27-2017.2 (Mold Remediation); NYC Admin Code § 27-2013",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to formally notify you of a serious mold and moisture condition at the above-referenced rental premises. This letter constitutes formal written notice pursuant to New York Real Property Law § 235-b and the NYC Housing Maintenance Code, and demands that you fulfill your legal obligation to inspect and remediate the mold condition without delay.",
+    "violationDescription": "There is a significant mold and/or moisture problem currently affecting the rental unit at the above address. Visible mold growth and/or persistent moisture intrusion constitutes a serious health hazard — particularly for individuals with respiratory conditions, allergies, or compromised immune systems — and is a direct violation of the implied warranty of habitability under RPL § 235-b and the mold remediation requirements of NYC Admin Code § 27-2017.2.",
+    "legalBasis": "Under New York Real Property Law § 235-b, every residential lease carries an implied warranty that the premises are fit for human habitation and free from conditions hazardous to health. NYC Admin Code § 27-2017.2 imposes a specific obligation on owners of multiple dwellings to inspect for and remediate mold affecting more than 10 square feet. NYC Admin Code § 27-2013 further requires owners to maintain the premises in good repair and in a clean and sanitary condition. The current mold condition is a breach of all three obligations.",
+    "demands": [
+      "Conduct a thorough professional inspection of all affected areas within 5 business days of receipt of this letter, using a qualified mold assessor as required under NYC Admin Code § 27-2017.2",
+      "Provide a written mold remediation plan prepared by a licensed mold remediation contractor within 7 calendar days",
+      "Identify and permanently repair the source of moisture causing the mold growth within the stated deadline",
+      "Complete all mold remediation work by a licensed mold remediation contractor within 14 calendar days of receipt of this letter",
+      "Provide written confirmation of completed remediation, including contractor's license number and clearance testing results where applicable"
+    ],
+    "escalationWarning": "If you fail to complete the required remediation within 14 days of receipt of this letter, I will file a complaint with the NYC Department of Housing Preservation and Development (HPD) at hpd.nyc.gov, which may result in an HPD inspection and the issuance of Class B or Class C violations. I will also commence a Housing Court proceeding pursuant to RPL § 235-b for a rent reduction and damages, and may contact the NYC Department of Health if the condition constitutes a public health hazard.",
+    "closingStatement": "I trust you will treat this matter with the urgency it deserves. Please confirm receipt of this letter and your intended course of action in writing within five (5) business days."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "no-heat",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2029 — Heat and Hot Water",
+        "description": "From October 1 through May 31 (the heating season), owners must supply heat to all residential units: between 6:00 AM and 10:00 PM, when outdoor temperature falls below 55°F, indoor temperature must be at least 68°F; between 10:00 PM and 6:00 AM, indoor temperature must be at least 62°F."
+      },
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2043 — Tenant Remedies for Lack of Heat",
+        "description": "Where an owner fails to supply heat as required, tenants may apply to Housing Court for an order directing the owner to provide heat, and may be entitled to rent reduction and other relief."
+      },
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "The failure to supply required heat during the heating season constitutes a breach of the implied warranty of habitability, entitling the tenant to a rent reduction proportional to the loss of services."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2029 (Heat Standards: 68°F day / 62°F night, Oct 1 – May 31); NYC Housing Maintenance Code",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to provide urgent formal notice that heat has not been supplied to the above-referenced rental unit as required by law. The failure to provide adequate heat during the heating season constitutes an emergency and a serious violation of the NYC Housing Maintenance Code and the implied warranty of habitability. This letter is written pursuant to NYC Admin Code § 27-2029 and New York Real Property Law § 235-b.",
+    "violationDescription": "As of the date referenced above, the rental unit has not been supplied with adequate heat. NYC Admin Code § 27-2029 requires that during the heating season (October 1 through May 31), indoor temperatures be maintained at a minimum of 68°F between 6:00 AM and 10:00 PM when outdoor temperatures fall below 55°F, and at a minimum of 62°F overnight. The failure to meet these mandatory temperature thresholds is a Class C — immediately hazardous — housing violation.",
+    "legalBasis": "NYC Admin Code § 27-2029 imposes a clear and non-waivable obligation on owners to supply heat meeting specified temperature minimums during the heating season. NYC Admin Code § 27-2043 provides tenants with the right to seek court orders compelling the provision of heat. New York Real Property Law § 235-b further establishes that failure to supply heat constitutes a breach of the implied warranty of habitability, entitling the tenant to rent reduction and damages. The current failure to provide heat is a Class C violation under the NYC Housing Maintenance Code.",
+    "demands": [
+      "Restore adequate heat to the rental unit IMMEDIATELY and no later than 24 hours from receipt of this letter",
+      "Identify and repair the root cause of the heating system failure",
+      "Maintain the required indoor temperatures as mandated by NYC Admin Code § 27-2029 for the remainder of the heating season",
+      "Provide written confirmation of the repairs completed and the date and time heat was restored"
+    ],
+    "escalationWarning": "If heat is not restored within 24 hours of receipt of this letter, I will immediately file a complaint with the NYC Department of Housing Preservation and Development (HPD), which will result in an emergency HPD inspection and issuance of a Class C violation. I will also commence a proceeding in NYC Housing Court pursuant to NYC Admin Code § 27-2043 for an order compelling heat restoration, a rent reduction, and all other available relief. Please note that Class C violations carry significant fines and can result in the City performing emergency repairs and billing the costs to you as a lien on the property.",
+    "closingStatement": "This is a time-sensitive emergency. Your immediate response and action are required. Please confirm receipt of this notice without delay."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "no-hot-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2029 — Heat and Hot Water",
+        "description": "Owners of multiple dwellings must supply hot water at a constant minimum temperature of 120 degrees Fahrenheit at the tap, 24 hours per day, 365 days per year. Failure to supply hot water is a Class C — immediately hazardous — violation."
+      },
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "The failure to supply hot water at the required temperature constitutes a breach of the implied warranty of habitability, entitling the tenant to a proportional reduction in rent for the period of deprivation."
+      },
+      {
+        "act": "Multiple Dwelling Law (MDL)",
+        "section": "§ 78 — Owner's Duty to Maintain",
+        "description": "The owner of a multiple dwelling must keep the premises in good repair and must supply adequate hot water to all dwelling units at all times."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2029 (Hot Water: minimum 120°F, 24/7/365); NYC Housing Maintenance Code",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to provide urgent formal notice that hot water has not been supplied to the above-referenced rental unit as required by law. The absence of hot water constitutes an emergency and a Class C — immediately hazardous — violation of the NYC Housing Maintenance Code. This letter is written pursuant to NYC Admin Code § 27-2029 and New York Real Property Law § 235-b.",
+    "violationDescription": "The rental unit has been without hot water since the date noted above. NYC Admin Code § 27-2029 requires owners to supply hot water at a constant minimum temperature of 120 degrees Fahrenheit at the tap, 24 hours per day, 365 days per year. The absence of hot water is an immediately hazardous condition that renders the unit unfit for habitation and is a Class C violation under the NYC Housing Maintenance Code.",
+    "legalBasis": "NYC Admin Code § 27-2029 unambiguously requires that hot water be supplied at a minimum of 120°F at the tap at all times, year-round. Multiple Dwelling Law § 78 imposes an ongoing duty on owners to maintain the premises in good repair, which includes maintaining functional hot water systems. New York Real Property Law § 235-b further establishes that failure to supply hot water is a breach of the implied warranty of habitability. The current interruption of hot water constitutes a Class C violation and a breach of all three legal obligations.",
+    "demands": [
+      "Restore hot water to the rental unit IMMEDIATELY and no later than 24 hours from receipt of this letter",
+      "Inspect, repair, or replace the water heating equipment as necessary to restore a continuous supply of hot water at or above 120°F",
+      "Provide written confirmation of the repairs completed and the date and time hot water was restored"
+    ],
+    "escalationWarning": "If hot water is not restored within 24 hours of receipt of this letter, I will file a complaint with the NYC Department of Housing Preservation and Development (HPD), which will result in an emergency HPD inspection and issuance of a Class C violation. I will also commence a proceeding in NYC Housing Court for an order compelling restoration of hot water service, a rent reduction for the period without service, and all other available relief. Class C violations carry significant daily fines.",
+    "closingStatement": "This matter requires your immediate attention. Please confirm receipt and advise of the corrective action being taken."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "pest-infestation",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2013(h) — Pest Extermination",
+        "description": "Owners of multiple dwellings must provide and pay for pest extermination services when the infestation exists in two or more apartments, or in any public part of the building; owners must also maintain the building to prevent pest entry."
+      },
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "A pest infestation — including rodents, cockroaches, bedbugs, or other vermin — constitutes a condition dangerous or detrimental to health, and is a breach of the implied warranty of habitability."
+      },
+      {
+        "act": "NYC Housing Maintenance Code — Classification of Violations",
+        "section": "Class B and Class C violations",
+        "description": "Active rodent infestations are classified as Class C (immediately hazardous) violations; cockroach and vermin infestations affecting multiple units are classified as Class B (hazardous) violations, both requiring correction within specified timeframes."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2013(h) (Pest Extermination); NYC Housing Maintenance Code (Class B/C violations)",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to formally notify you of a serious pest infestation at the above-referenced rental premises. This letter constitutes formal written notice pursuant to New York Real Property Law § 235-b and NYC Admin Code § 27-2013(h), and demands that you fulfill your legal obligation to provide professional pest extermination services promptly.",
+    "violationDescription": "The rental unit is currently experiencing a pest infestation. The presence of pests constitutes a condition detrimental to health, a breach of the implied warranty of habitability under RPL § 235-b, and a violation of your obligations under NYC Admin Code § 27-2013(h) to provide pest extermination services. Depending on the pest involved, this condition may constitute a Class B or Class C housing code violation subject to HPD enforcement.",
+    "legalBasis": "NYC Admin Code § 27-2013(h) imposes a non-waivable obligation on owners of multiple dwellings to provide and pay for pest extermination when an infestation exists in two or more apartments or in any public part of the building. New York Real Property Law § 235-b establishes that any condition dangerous or detrimental to health — including a pest infestation — constitutes a breach of the implied warranty of habitability. Active rodent infestations are Class C violations under the NYC Housing Maintenance Code; cockroach infestations are Class B violations, both subject to HPD enforcement and fines.",
+    "demands": [
+      "Engage a licensed pest control professional to conduct a comprehensive inspection of the rental unit and all affected common areas within 5 business days of receipt of this letter",
+      "Provide written confirmation of the scheduled pest control treatment, including the name and license number of the pest management company",
+      "Complete professional extermination treatment of all affected areas within 14 calendar days of receipt of this letter",
+      "Implement a follow-up treatment schedule as required to fully eliminate the infestation",
+      "Identify and seal all known pest entry points to prevent re-infestation",
+      "Provide written confirmation upon completion of all treatments"
+    ],
+    "escalationWarning": "If you fail to take the required remediation steps within 14 days of receipt of this letter, I will file a complaint with the NYC Department of Housing Preservation and Development (HPD), which will result in an inspection and the issuance of Class B or Class C violations carrying significant daily fines. I will also commence a Housing Court proceeding for a rent reduction under RPL § 235-b for the period during which the infestation has rendered the unit partially unfit for habitation.",
+    "closingStatement": "Please confirm receipt of this letter and provide your written remediation plan within five (5) business days."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "broken-lock",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2043 — Doors, Windows and Lighting in Public Areas",
+        "description": "Owners of multiple dwellings must maintain all entrance doors, locks, and intercoms in good repair; entrance doors must be equipped with self-closing, self-locking devices maintained in working order at all times."
+      },
+      {
+        "act": "Multiple Dwelling Law (MDL)",
+        "section": "§ 78 — Owner's Duty to Maintain",
+        "description": "The owner of a multiple dwelling must keep the building in good repair, which includes maintaining all door locks, security devices, and entry hardware in functional working condition."
+      },
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "A broken or non-functional lock on the entrance to a rental unit or building constitutes a condition dangerous to the safety of the occupants and a breach of the implied warranty of habitability."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2043 (Lock and Door Security Standards); NYC Housing Maintenance Code (Class C — Immediately Hazardous)",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to demand emergency repair of a broken lock or security device at the above-referenced rental unit. The failure to maintain a functioning lock on a residential unit constitutes a Class C — immediately hazardous — violation of the NYC Housing Maintenance Code and a breach of the implied warranty of habitability under New York Real Property Law § 235-b. This letter demands your immediate response.",
+    "violationDescription": "A lock or security device at the entrance to the rental unit is currently broken, damaged, or non-functional. This defect directly compromises my personal safety and the security of my home and belongings. A broken lock on a residential unit is a Class C — immediately hazardous — violation under the NYC Housing Maintenance Code, subject to emergency enforcement by the NYC Department of Housing Preservation and Development.",
+    "legalBasis": "NYC Admin Code § 27-2043 requires owners of multiple dwellings to maintain all entrance doors and locks in good repair and to ensure self-locking devices are functional at all times. Multiple Dwelling Law § 78 imposes a general duty of maintenance that encompasses door hardware and security devices. New York Real Property Law § 235-b establishes that a broken lock constitutes a condition hazardous to tenant safety, breaching the implied warranty of habitability. This is a Class C violation under the NYC Housing Maintenance Code.",
+    "demands": [
+      "Dispatch a licensed locksmith to repair or replace the broken lock IMMEDIATELY, and no later than 24 hours from receipt of this letter",
+      "Ensure the repaired lock meets all requirements under the NYC Housing Maintenance Code, including self-locking functionality for building entrance doors",
+      "Provide written confirmation of the completed repair, including the locksmith's name and the date and time of completion"
+    ],
+    "escalationWarning": "If the broken lock is not repaired within 24 hours of receipt of this letter, I will file an emergency complaint with the NYC Department of Housing Preservation and Development (HPD), which will result in an emergency inspection and issuance of a Class C violation with significant daily fines. I will also commence a proceeding in NYC Housing Court for an order compelling immediate repair and a rent reduction under RPL § 235-b. I reserve the right to arrange emergency lock repair at your expense.",
+    "closingStatement": "This is an urgent security emergency. Please confirm receipt and advise of the repair timeline immediately."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "plumbing-failure",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Multiple Dwelling Law (MDL)",
+        "section": "§ 78 — Owner's Duty to Maintain",
+        "description": "The owner of a multiple dwelling must keep all plumbing, drainage systems, and sanitary facilities in good repair and in proper working order at all times."
+      },
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2013 — Maintenance of Buildings",
+        "description": "Owners must maintain all plumbing systems, fixtures, pipes, and drainage within the dwelling in good repair; failure to do so constitutes a housing maintenance code violation."
+      },
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "A plumbing failure that impairs the habitability of the premises or causes unsanitary conditions constitutes a breach of the implied warranty of habitability, entitling the tenant to a rent reduction."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2013 (Maintenance of Buildings); Multiple Dwelling Law § 78; NYC Housing Maintenance Code",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to formally notify you of a plumbing failure affecting the above-referenced rental unit, and to demand prompt repair pursuant to the NYC Housing Maintenance Code, Multiple Dwelling Law § 78, and New York Real Property Law § 235-b.",
+    "violationDescription": "There is currently a plumbing failure at the rental unit that is disrupting the proper functioning of plumbing fixtures, drains, or pipes, and/or is causing water damage or unsanitary conditions. This failure impairs my use and enjoyment of the premises, may create a health hazard, and constitutes a violation of applicable housing maintenance standards.",
+    "legalBasis": "Multiple Dwelling Law § 78 requires owners to keep all plumbing and drainage systems in good repair and proper working order at all times. NYC Admin Code § 27-2013 requires owners to maintain all plumbing systems and fixtures in good repair, and a failure to do so constitutes a housing maintenance code violation. New York Real Property Law § 235-b provides that a plumbing failure creating unsanitary conditions or impairing habitability is a breach of the implied warranty of habitability.",
+    "demands": [
+      "Arrange for a licensed plumber to inspect and diagnose the plumbing failure within 5 business days of receipt of this letter",
+      "Complete all necessary plumbing repairs to restore full functionality within 14 calendar days of receipt of this letter",
+      "Provide written confirmation of the completed repair, including the plumber's name, license number, and date of completion"
+    ],
+    "escalationWarning": "If the plumbing failure is not fully remediated within 14 days of receipt of this letter, I will file a complaint with the NYC Department of Housing Preservation and Development (HPD), which may result in the issuance of housing maintenance code violations and fines. I will also commence a Housing Court proceeding for a rent reduction under RPL § 235-b for the period during which the plumbing failure has impaired the habitability of my unit.",
+    "closingStatement": "Please confirm receipt of this letter and advise of your repair timeline within three (3) business days."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "electrical-hazard",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2013 — Maintenance of Buildings",
+        "description": "Owners must maintain all electrical systems, wiring, outlets, and fixtures in good repair and in a safe condition; failure to maintain safe electrical systems constitutes a Class C — immediately hazardous — violation."
+      },
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "An electrical hazard posing a risk of fire or electrocution constitutes a condition imminently dangerous to the health and safety of the occupants and a breach of the implied warranty of habitability."
+      },
+      {
+        "act": "Multiple Dwelling Law (MDL)",
+        "section": "§ 78 — Owner's Duty to Maintain",
+        "description": "The owner of a multiple dwelling has a non-delegable duty to maintain all electrical systems and installations in safe working order and in compliance with applicable electrical codes."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2013 (Electrical Safety); NYC Housing Maintenance Code (Class C — Immediately Hazardous); NYC Electrical Code",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD) and NYC Department of Buildings (DOB)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to provide urgent formal notice of a serious electrical hazard at the above-referenced rental unit. This constitutes a life safety emergency and a Class C — immediately hazardous — violation of the NYC Housing Maintenance Code. This letter is written pursuant to NYC Admin Code § 27-2013, Multiple Dwelling Law § 78, and New York Real Property Law § 235-b, and demands your immediate response.",
+    "violationDescription": "There is currently an electrical hazard at the rental unit that poses an immediate risk of fire, electrocution, or other serious injury to persons and property. This may include exposed or sparking wiring, malfunctioning outlets or fixtures, an overloaded or failing electrical panel, or burning smells from electrical components. An electrical hazard is classified as a Class C — immediately hazardous — violation under the NYC Housing Maintenance Code, requiring correction within 24 hours.",
+    "legalBasis": "NYC Admin Code § 27-2013 requires owners to maintain all electrical systems in safe condition; failure to do so is a Class C — immediately hazardous — violation under the NYC Housing Maintenance Code. Multiple Dwelling Law § 78 imposes a non-delegable duty on owners to maintain electrical systems in safe working order. New York Real Property Law § 235-b establishes that an electrical hazard constitutes a condition dangerous to life and health, breaching the implied warranty of habitability. The NYC Department of Buildings has concurrent authority to enforce the NYC Electrical Code.",
+    "demands": [
+      "Immediately isolate or de-energize the electrical hazard to prevent risk of fire or injury",
+      "Engage a licensed electrician to inspect the electrical system IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Obtain all required permits from the NYC Department of Buildings for any electrical work performed",
+      "Complete all necessary electrical repairs to bring the system into full compliance with the NYC Electrical Code and all applicable safety standards"
+    ],
+    "escalationWarning": "If this electrical hazard is not addressed within 24 hours, I will file an emergency complaint with the NYC Department of Housing Preservation and Development (HPD) and the NYC Department of Buildings (DOB), both of which have authority to conduct emergency inspections and issue Class C violations with substantial daily fines. I will also contact FDNY if I believe there is an imminent fire risk. I will commence a Housing Court proceeding for a rent reduction and all other available relief under RPL § 235-b.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required. Please confirm receipt of this notice and advise of the corrective action being taken."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "no-running-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2029 — Supply of Water",
+        "description": "Owners of multiple dwellings must provide an adequate supply of running water to every dwelling unit at all times; failure to do so is a Class C — immediately hazardous — violation of the NYC Housing Maintenance Code."
+      },
+      {
+        "act": "Multiple Dwelling Law (MDL)",
+        "section": "§ 78 — Owner's Duty to Maintain",
+        "description": "Owners of multiple dwellings must maintain plumbing and water supply systems in good repair and must provide an adequate continuous water supply to all units."
+      },
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "The absence of running water renders a dwelling unit wholly unfit for human habitation and is a fundamental breach of the implied warranty of habitability, entitling the tenant to a full rent abatement for the period without water."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2029 (Water Supply); NYC Housing Maintenance Code (Class C — Immediately Hazardous)",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to formally notify you that running water has been interrupted at the above-referenced rental unit. The absence of running water is a Class C — immediately hazardous — violation of the NYC Housing Maintenance Code, a breach of the implied warranty of habitability under RPL § 235-b, and a fundamental failure of your statutory maintenance obligations. This letter demands immediate action.",
+    "violationDescription": "The rental unit is currently without running water. The absence of running water makes it impossible to meet the most basic sanitation, hygiene, cooking, and drinking needs within the unit, rendering it wholly unfit for human habitation. Under the NYC Housing Maintenance Code, failure to supply water is a Class C — immediately hazardous — violation requiring correction within 24 hours.",
+    "legalBasis": "NYC Admin Code § 27-2029 unequivocally requires owners of multiple dwellings to provide an adequate supply of running water to every dwelling unit at all times. Multiple Dwelling Law § 78 requires owners to maintain water supply systems in good repair. New York Real Property Law § 235-b establishes that the absence of running water is a fundamental breach of the implied warranty of habitability, potentially entitling the tenant to a full rent abatement for the period without service. This condition is a Class C violation subject to emergency HPD enforcement.",
+    "demands": [
+      "Restore running water to the rental unit IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Identify and repair the cause of the water supply failure",
+      "Provide written confirmation of the date and time running water was fully restored"
+    ],
+    "escalationWarning": "If running water is not restored within 24 hours of receipt of this letter, I will immediately file an emergency complaint with the NYC Department of Housing Preservation and Development (HPD), which will result in an emergency inspection and issuance of a Class C violation carrying significant daily fines. I will also commence a Housing Court proceeding for a full rent abatement under RPL § 235-b for the period without water and all other available relief.",
+    "closingStatement": "This is an urgent matter. Please confirm receipt and advise of the restoration timeline immediately."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "fire-safety",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2045 — Smoke Detecting Devices; Carbon Monoxide Detecting Devices",
+        "description": "Owners of multiple dwellings must install and maintain operational smoke detecting and carbon monoxide detecting devices in every dwelling unit; failure to maintain these devices in working order is a Class C — immediately hazardous — violation."
+      },
+      {
+        "act": "New York City Fire Code (Administrative Code Title 29)",
+        "section": "FC 1027 — Means of Egress Maintenance",
+        "description": "All required means of egress, including stairways, corridors, and exit doors, must be maintained in proper working order and free from obstructions at all times; violations are subject to FDNY enforcement."
+      },
+      {
+        "act": "Multiple Dwelling Law (MDL)",
+        "section": "§ 78 — Owner's Duty to Maintain",
+        "description": "Owners of multiple dwellings must maintain all fire safety equipment, exits, and safety systems in good repair and in compliance with applicable fire safety laws and codes."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2045 (Smoke/CO Detectors); NYC Fire Code FC 1027 (Egress); NYC Housing Maintenance Code (Class C — Immediately Hazardous)",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD) and FDNY",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to formally notify you of a serious fire safety violation at the above-referenced rental unit. This constitutes a life safety emergency and a Class C — immediately hazardous — violation of the NYC Housing Maintenance Code and NYC Fire Code. This letter is written pursuant to NYC Admin Code § 27-2045, the NYC Fire Code, and Multiple Dwelling Law § 78, and demands your immediate response.",
+    "violationDescription": "There is currently a fire safety violation at the rental unit that poses an immediate and serious risk to the lives of all occupants. This may include non-functioning or missing smoke detectors or carbon monoxide detectors, blocked or locked fire exits, obstructed stairways or corridors used as egress routes, or other conditions violating the NYC Fire Code. Under NYC Admin Code § 27-2045, failure to maintain operational smoke and carbon monoxide detecting devices is a Class C — immediately hazardous — violation.",
+    "legalBasis": "NYC Admin Code § 27-2045 imposes a mandatory and non-waivable obligation on owners to install and maintain operational smoke and carbon monoxide detecting devices in every dwelling unit; failure to comply is a Class C violation. NYC Fire Code FC 1027 requires all egress routes to be maintained free of obstruction at all times, subject to FDNY enforcement. Multiple Dwelling Law § 78 requires owners to maintain all fire safety equipment and systems in good repair. These are non-delegable statutory duties, and the current violation is a Class C — immediately hazardous — condition.",
+    "demands": [
+      "Immediately address the fire safety deficiency described above",
+      "Inspect, repair, or replace all smoke detectors and carbon monoxide detectors within 24 hours, ensuring operational devices are present in every room as required by NYC Admin Code § 27-2045",
+      "Ensure all fire exits, stairways, corridors, and egress routes are clear, unobstructed, and fully functional",
+      "Provide written confirmation of all corrective actions taken, including dates and the names of any contractors or service providers engaged"
+    ],
+    "escalationWarning": "If the fire safety deficiency is not immediately corrected, I will file an emergency complaint with the NYC Department of Housing Preservation and Development (HPD) and the FDNY, both of which have authority to conduct emergency inspections, issue Class C violations with significant daily fines, and order immediate corrective action. HPD may also certify the condition and take legal action in Housing Court.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required. Please confirm receipt and advise of corrective action taken."
+  },
+  {
+    "jurisdiction": "new-york",
+    "issue": "structural-damage",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Multiple Dwelling Law (MDL)",
+        "section": "§ 78 — Owner's Duty to Maintain",
+        "description": "The owner of a multiple dwelling must keep the building in good repair and in a safe structural condition at all times, including all walls, ceilings, floors, and supporting structures."
+      },
+      {
+        "act": "NYC Administrative Code",
+        "section": "§ 27-2013 — Maintenance of Buildings",
+        "description": "Owners must maintain all structural elements of a dwelling in good repair; structural deterioration including damaged walls, ceilings, floors, or foundations constitutes a housing maintenance code violation."
+      },
+      {
+        "act": "New York Real Property Law (RPL)",
+        "section": "§ 235-b — Implied Warranty of Habitability",
+        "description": "Structural damage that compromises the safety or habitability of a dwelling unit constitutes a breach of the implied warranty of habitability, entitling the tenant to a rent reduction and other relief."
+      }
+    ],
+    "housingCode": "NYC Admin Code § 27-2013 (Maintenance of Buildings); Multiple Dwelling Law § 78; NYC Housing Maintenance Code (Class B/C depending on severity)",
+    "regulatoryBody": "NYC Department of Housing Preservation and Development (HPD)",
+    "regulatoryBodyUrl": "https://www.nyc.gov/site/hpd/index.page",
+    "openingParagraph": "I am writing to formally notify you of structural damage affecting the above-referenced rental premises, and to demand prompt repair pursuant to the NYC Housing Maintenance Code, Multiple Dwelling Law § 78, and New York Real Property Law § 235-b.",
+    "violationDescription": "There is significant structural damage to the rental unit or residential building that compromises the structural integrity of the premises and poses a safety risk to all occupants. Structural damage — including failing or cracked walls, deteriorating ceilings, compromised floors, damaged foundations, or water-damaged structural elements — renders the premises partially unfit for habitation and constitutes a housing maintenance code violation under the NYC Housing Maintenance Code.",
+    "legalBasis": "Multiple Dwelling Law § 78 requires owners to maintain multiple dwellings in good repair and in a safe structural condition at all times. NYC Admin Code § 27-2013 requires owners to maintain all structural elements in good repair; failure to do so is a housing maintenance code violation. New York Real Property Law § 235-b establishes that structural damage compromising the safety or habitability of the premises constitutes a breach of the implied warranty of habitability. Depending on severity, structural damage may be classified as a Class B (hazardous) or Class C (immediately hazardous) HPD violation.",
+    "demands": [
+      "Engage a licensed structural engineer or NYC-licensed contractor to assess the structural damage within 5 business days of receipt of this letter",
+      "Provide a written assessment and repair plan within 10 calendar days, including a detailed timeline for completion of all repairs",
+      "Complete all necessary structural repairs within 14 calendar days of receipt of this letter",
+      "Obtain all required permits from the NYC Department of Buildings for any structural work performed",
+      "Provide written confirmation of all completed repairs, including contractor information, license numbers, and date of completion"
+    ],
+    "escalationWarning": "If you fail to take the required remediation steps within 14 days of receipt of this letter, I will file a complaint with the NYC Department of Housing Preservation and Development (HPD), which may result in the issuance of Class B or Class C violations and significant fines. I will also report the structural condition to the NYC Department of Buildings (DOB), which has independent authority to issue orders requiring emergency structural repairs. I will commence a Housing Court proceeding for a rent reduction under RPL § 235-b for the period during which the structural damage has impaired habitability.",
+    "closingStatement": "Please confirm receipt of this letter and provide your written remediation plan within five (5) business days."
+  }
+]

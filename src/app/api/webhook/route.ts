@@ -33,7 +33,6 @@ export async function POST(req: NextRequest) {
         plan: session.metadata?.plan,
         jurisdiction: session.metadata?.jurisdiction,
         issue: session.metadata?.issue,
-        customerEmail: session.customer_details?.email,
       });
       // In a full implementation, you would:
       // 1. Store the session ID and access token in a database

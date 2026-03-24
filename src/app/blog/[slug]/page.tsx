@@ -103,13 +103,13 @@ export default async function BlogPostPage({ params }: PageProps) {
               <section key={i}>
                 <h2 className="text-xl font-bold text-navy-900 mb-3">{section.heading}</h2>
                 <div className="text-gray-700 text-sm leading-relaxed space-y-3">
-                  {section.body.split('\n\n').map((para, j) => {
-                    // Detect bold-prefixed lines (markdown-style **text:**)
-                    const rendered = para.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-                    return (
-                      <p key={j} dangerouslySetInnerHTML={{ __html: rendered }} />
-                    );
-                  })}
+                  {section.body.split('\n\n').map((para, j) => (
+                    <p key={j}>
+                      {para.split(/\*\*(.*?)\*\*/g).map((chunk, k) =>
+                        k % 2 === 1 ? <strong key={k}>{chunk}</strong> : chunk
+                      )}
+                    </p>
+                  ))}
                 </div>
               </section>
             ))}

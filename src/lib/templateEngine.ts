@@ -2,12 +2,16 @@ import { WizardFormData, LetterTemplate, GeneratedLetter, Jurisdiction, IssueCat
 import ontarioTemplates from '@/data/templates/ontario.json';
 import quebecTemplates from '@/data/templates/quebec.json';
 import californiaTemplates from '@/data/templates/california.json';
+import bcTemplates from '@/data/templates/british-columbia.json';
+import newYorkTemplates from '@/data/templates/new-york.json';
 import placeholders from '@/data/templates/placeholders.json';
 
 const ALL_TEMPLATES: LetterTemplate[] = [
   ...(ontarioTemplates as unknown as LetterTemplate[]),
   ...(quebecTemplates as unknown as LetterTemplate[]),
   ...(californiaTemplates as unknown as LetterTemplate[]),
+  ...(bcTemplates as unknown as LetterTemplate[]),
+  ...(newYorkTemplates as unknown as LetterTemplate[]),
 ];
 
 const PLACEHOLDER_DATA = placeholders as Record<string, {
