@@ -6,9 +6,10 @@ import { useCurrency } from '@/hooks/useCurrency';
 
 interface Props {
   letter: GeneratedLetter;
+  onBeforeCheckout: () => void;
 }
 
-export default function PaymentGate({ letter }: Props) {
+export default function PaymentGate({ letter, onBeforeCheckout }: Props) {
   const [loading, setLoading] = useState<'one-time' | 'subscription' | null>(null);
   const { currency, symbol, oneTimePrice, subPrice, loading: geoLoading } = useCurrency();
 
@@ -32,6 +33,7 @@ export default function PaymentGate({ letter }: Props) {
 
       const data = await res.json();
       if (data.url) {
+        onBeforeCheckout(); // persist form state before leaving the page
         window.location.href = data.url;
       } else {
         throw new Error(data.error || 'No checkout URL returned');

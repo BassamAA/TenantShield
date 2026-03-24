@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    turbo: {
+      root: new URL('.', import.meta.url).pathname,
+    },
+  },
   // Required for @react-pdf/renderer server-side rendering
   serverExternalPackages: ['@react-pdf/renderer'],
   // Security headers

@@ -3,25 +3,19 @@
 import { GeneratedLetter } from '@/types';
 import LetterPreview from '@/components/letter/LetterPreview';
 import PaymentGate from '@/components/letter/PaymentGate';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 interface Props {
   letter: GeneratedLetter;
   onBack: () => void;
+  isPaid?: boolean;          // true when returning from Stripe success redirect
+  onBeforeCheckout: () => void;
 }
 
-export default function Step4Preview({ letter, onBack }: Props) {
+export default function Step4Preview({ letter, onBack, isPaid: initialPaid = false, onBeforeCheckout }: Props) {
   const devBypass = process.env.NEXT_PUBLIC_DEV_BYPASS_PAYMENT === 'true';
-  const [isPaid, setIsPaid] = useState(devBypass);
+  const [isPaid, setIsPaid] = useState(devBypass || initialPaid);
   const [isDownloading, setIsDownloading] = useState(false);
-
-  // Check URL for success param (after Stripe redirect)
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    if (params.get('success') === 'true') {
-      setIsPaid(true);
-    }
-  }, []);
 
   const handleDownloadPDF = async () => {
     setIsDownloading(true);
@@ -51,12 +45,13 @@ export default function Step4Preview({ letter, onBack }: Props) {
 
   return (
     <div>
-      {devBypass && (
+      {devBypass && !initialPaid && (
         <div className="mb-4 bg-yellow-100 border border-yellow-300 text-yellow-800 text-xs font-mono px-4 py-2 rounded-lg flex items-center gap-2">
           <span className="font-bold">DEV</span>
           Payment bypassed — set <code>NEXT_PUBLIC_DEV_BYPASS_PAYMENT=false</code> to test Stripe
         </div>
       )}
+
       <div className="flex items-center justify-between mb-2">
         <h2 className="text-2xl font-bold text-navy-900">Your Letter is Ready</h2>
         {isPaid && (
@@ -86,8 +81,8 @@ export default function Step4Preview({ letter, onBack }: Props) {
             {isDownloading ? (
               <>
                 <svg className="animate-spin h-5 w-5" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"/>
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                 </svg>
                 Generating PDF...
               </>
@@ -112,7 +107,7 @@ export default function Step4Preview({ letter, onBack }: Props) {
           </div>
         </div>
       ) : (
-        <PaymentGate letter={letter} />
+        <PaymentGate letter={letter} onBeforeCheckout={onBeforeCheckout} />
       )}
 
       <button
