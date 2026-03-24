@@ -264,7 +264,7 @@ Paint and bleach do not constitute remediation. Proper mold remediation involves
     publishedAt: '2025-02-18',
     readingTimeMinutes: 9,
     excerpt:
-      'California's implied warranty of habitability gives tenants powerful legal tools. Here is a plain-English breakdown of what your landlord must provide, what violates the law, and what remedies you have.',
+      "California's implied warranty of habitability gives tenants powerful legal tools. Here is a plain-English breakdown of what your landlord must provide, what violates the law, and what remedies you have.",
     sections: [
       {
         heading: 'The Implied Warranty of Habitability in California',
