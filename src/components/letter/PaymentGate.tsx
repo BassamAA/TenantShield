@@ -25,12 +25,7 @@ export default function PaymentGate({ letter, onBeforeCheckout }: Props) {
         body: JSON.stringify({
           plan,
           currency,
-          letterData: {
-            jurisdiction:    letter.jurisdiction,
-            issue:           letter.issue,
-            tenantName:      letter.tenantName,
-            propertyAddress: letter.propertyAddress,
-          },
+          letterData: letter.formData,
         }),
       });
 

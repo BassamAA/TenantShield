@@ -31,13 +31,23 @@ export async function POST(req: NextRequest) {
     const successUrl = `${baseUrl}/wizard?success=true&session_id={CHECKOUT_SESSION_ID}`;
     const cancelUrl  = `${baseUrl}/wizard?cancelled=true`;
 
-    const metadata = {
+    // Store full form data in Stripe metadata so the webhook can regenerate
+    // the letter and email the PDF. Stripe values are capped at 500 chars.
+    const metadata: Record<string, string> = {
       plan,
       currency,
-      jurisdiction:    letterData?.jurisdiction    || '',
-      issue:           letterData?.issue           || '',
-      tenantName:      letterData?.tenantName      || '',
-      propertyAddress: letterData?.propertyAddress || '',
+      jurisdiction:        letterData?.jurisdiction        || '',
+      issue:               letterData?.issue               || '',
+      tenantName:          letterData?.tenantName          || '',
+      landlordName:        letterData?.landlordName        || '',
+      propertyAddress:     letterData?.propertyAddress     || '',
+      unitNumber:          letterData?.unitNumber          || '',
+      dateStarted:         letterData?.dateStarted         || '',
+      complainedVerbally:  letterData?.complainedVerbally  ? 'true' : 'false',
+      verbalComplaintDate: letterData?.verbalComplaintDate || '',
+      hasPhotos:           letterData?.hasPhotos           ? 'true' : 'false',
+      // Truncate to 490 chars to stay within Stripe's 500-char limit
+      issueDescription:    (letterData?.issueDescription  || '').slice(0, 490),
     };
 
     const priceId = getPriceId(plan, currency);
@@ -48,6 +58,7 @@ export async function POST(req: NextRequest) {
       mode,
       line_items: [{ price: priceId, quantity: 1 }],
       metadata,
+      customer_email: undefined, // Stripe collects it at checkout
       success_url: successUrl,
       cancel_url:  cancelUrl,
     });
