@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { JURISDICTIONS } from '@/data/jurisdictions';
 import { ISSUE_URL_MAP } from '@/data/issues';
 
-const BASE_URL = 'https://tenantshield.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://tenant-letter.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

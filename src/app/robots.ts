@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/wizard'],
       },
     ],
-    sitemap: 'https://tenantshield.com/sitemap.xml',
+    sitemap: `${process.env.NEXT_PUBLIC_BASE_URL || 'https://tenant-letter.com'}/sitemap.xml`,
   };
 }

@@ -7,7 +7,7 @@ import Footer from '@/components/layout/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://tenantshield.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://tenant-letter.com'),
   title: {
     default: 'TenantShield — Force Your Landlord to Fix It. Legally.',
     template: '%s | TenantShield',
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://tenantshield.com',
+    url: process.env.NEXT_PUBLIC_BASE_URL || 'https://tenant-letter.com',
     siteName: 'TenantShield',
     title: 'TenantShield — Force Your Landlord to Fix It. Legally.',
     description:

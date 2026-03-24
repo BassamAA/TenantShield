@@ -205,7 +205,7 @@ export function LetterPDF({ letter }: LetterPDFProps) {
         {/* Footer */}
         <View style={styles.footer}>
           <Text>
-            This document was prepared with TenantShield (tenantshield.com). TenantShield provides document preparation assistance and is not a law firm. This document does not constitute legal advice.
+            This document was prepared with TenantShield (tenant-letter.com). TenantShield provides document preparation assistance and is not a law firm. This document does not constitute legal advice.
           </Text>
         </View>
       </Page>
