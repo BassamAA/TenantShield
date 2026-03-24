@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { WizardFormData, GeneratedLetter, Jurisdiction, IssueCategory } from '@/types';
 import ProgressBar from './ProgressBar';
 import Step1Jurisdiction from './Step1Jurisdiction';
@@ -44,15 +44,19 @@ export default function WizardContainer({
   });
   const [letter, setLetter] = useState<GeneratedLetter | null>(null);
   const [returnedPaid, setReturnedPaid] = useState(false);
+  // Set to true just before redirecting to Stripe so the leave warning is suppressed
+  const goingToCheckout = useRef(false);
 
-  // Warn before leaving if the user has started filling in details (step 3+)
+  // Warn before leaving if the user has started filling in details (step 3+),
+  // but NOT when they are intentionally going to the Stripe checkout page.
   useEffect(() => {
-    const hasStartedFilling = step >= 3 && (
-      formData.tenantName || formData.landlordName || formData.propertyAddress || formData.issueDescription
-    );
+    const hasStartedFilling =
+      step >= 3 &&
+      (formData.tenantName || formData.landlordName || formData.propertyAddress || formData.issueDescription);
     if (!hasStartedFilling) return;
 
     const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      if (goingToCheckout.current) return;
       e.preventDefault();
       e.returnValue = '';
     };
@@ -60,7 +64,7 @@ export default function WizardContainer({
     return () => window.removeEventListener('beforeunload', handleBeforeUnload);
   }, [step, formData.tenantName, formData.landlordName, formData.propertyAddress, formData.issueDescription]);
 
-  // On mount — check if we're returning from Stripe
+  // On mount — check if we're returning from Stripe (success or cancelled)
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
 
@@ -75,17 +79,28 @@ export default function WizardContainer({
           setReturnedPaid(true);
           setStep(4);
           localStorage.removeItem(STORAGE_KEY);
-          // Clean URL without reloading
           window.history.replaceState({}, '', window.location.pathname);
         } catch {
-          // Corrupted state — just start fresh
           localStorage.removeItem(STORAGE_KEY);
         }
       }
     }
 
+    // Cancelled — restore the form so the user doesn't lose their work
     if (params.get('cancelled') === 'true') {
-      localStorage.removeItem(STORAGE_KEY);
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        try {
+          const restored: WizardFormData = JSON.parse(saved);
+          setFormData(restored);
+          const generated = generateLetter(restored);
+          setLetter(generated);
+          setStep(4); // Send them back to the preview/payment screen
+          localStorage.removeItem(STORAGE_KEY);
+        } catch {
+          localStorage.removeItem(STORAGE_KEY);
+        }
+      }
       window.history.replaceState({}, '', window.location.pathname);
     }
   }, []);
@@ -110,6 +125,7 @@ export default function WizardContainer({
 
   // Called by PaymentGate just before redirecting to Stripe
   const saveBeforeCheckout = () => {
+    goingToCheckout.current = true;
     localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
   };
 

@@ -16,15 +16,15 @@ const ISSUE_REVERSE_MAP: Record<string, IssueCategory> = Object.fromEntries(
 );
 
 interface PageProps {
-  params: { jurisdiction: string; issue: string };
+  params: Promise<{ jurisdiction: string; issue: string }>;
 }
 
-function resolveParams(params: PageProps['params']): {
+function resolveParams(raw: { jurisdiction: string; issue: string }): {
   jurisdiction: Jurisdiction | null;
   issue: IssueCategory | null;
 } {
-  const jurisdiction = JURISDICTION_URL_MAP[params.jurisdiction] || null;
-  const issue = ISSUE_REVERSE_MAP[params.issue] || (ISSUE_URL_MAP[params.issue] ? params.issue as IssueCategory : null);
+  const jurisdiction = JURISDICTION_URL_MAP[raw.jurisdiction] || null;
+  const issue = ISSUE_REVERSE_MAP[raw.issue] || (ISSUE_URL_MAP[raw.issue] ? raw.issue as IssueCategory : null);
   return { jurisdiction, issue };
 }
 
@@ -82,7 +82,8 @@ const SEO_COPY: Record<IssueCategory, { headline: string; description: string; k
 };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { jurisdiction, issue } = resolveParams(params);
+  const raw = await params;
+  const { jurisdiction, issue } = resolveParams(raw);
 
   if (!jurisdiction || !issue) {
     return { title: 'Not Found | TenantShield' };
@@ -101,7 +102,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: 'website',
     },
     alternates: {
-      canonical: `/${params.jurisdiction}/${params.issue}`,
+      canonical: `/${raw.jurisdiction}/${raw.issue}`,
     },
   };
 }
@@ -116,8 +117,9 @@ export function generateStaticParams() {
   return params;
 }
 
-export default function JurisdictionIssuePage({ params }: PageProps) {
-  const { jurisdiction, issue } = resolveParams(params);
+export default async function JurisdictionIssuePage({ params }: PageProps) {
+  const raw = await params;
+  const { jurisdiction, issue } = resolveParams(raw);
 
   if (!jurisdiction || !issue) {
     notFound();

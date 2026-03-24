@@ -21,20 +21,20 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3">Jurisdictions</h4>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li><Link href="/ontario/mold" className="hover:text-white transition-colors">Ontario Tenant Rights</Link></li>
-              <li><Link href="/quebec/no-heat" className="hover:text-white transition-colors">Quebec Tenant Rights</Link></li>
-              <li><Link href="/california/mold" className="hover:text-white transition-colors">California Tenant Rights</Link></li>
-              <li><Link href="/new-york/pest-infestation" className="hover:text-white transition-colors">New York Tenant Rights</Link></li>
+              <li><Link href="/wizard" className="hover:text-white transition-colors">Ontario Tenant Rights</Link></li>
+              <li><Link href="/wizard" className="hover:text-white transition-colors">Quebec Tenant Rights</Link></li>
+              <li><Link href="/wizard" className="hover:text-white transition-colors">California Tenant Rights</Link></li>
+              <li><Link href="/wizard" className="hover:text-white transition-colors">New York Tenant Rights</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-400 mb-3">Common Issues</h4>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li><Link href="/ontario/mold" className="hover:text-white transition-colors">Mold &amp; Moisture Letters</Link></li>
-              <li><Link href="/ontario/no-heat" className="hover:text-white transition-colors">No Heat Complaints</Link></li>
-              <li><Link href="/ontario/pest-infestation" className="hover:text-white transition-colors">Pest Infestation Letters</Link></li>
-              <li><Link href="/california/broken-lock" className="hover:text-white transition-colors">Broken Lock Demand Letters</Link></li>
+              <li><Link href="/wizard" className="hover:text-white transition-colors">Mold &amp; Moisture Letters</Link></li>
+              <li><Link href="/wizard" className="hover:text-white transition-colors">No Heat Complaints</Link></li>
+              <li><Link href="/wizard" className="hover:text-white transition-colors">Pest Infestation Letters</Link></li>
+              <li><Link href="/wizard" className="hover:text-white transition-colors">Broken Lock Demand Letters</Link></li>
             </ul>
           </div>
         </div>
