@@ -45,6 +45,21 @@ export default function WizardContainer({
   const [letter, setLetter] = useState<GeneratedLetter | null>(null);
   const [returnedPaid, setReturnedPaid] = useState(false);
 
+  // Warn before leaving if the user has started filling in details (step 3+)
+  useEffect(() => {
+    const hasStartedFilling = step >= 3 && (
+      formData.tenantName || formData.landlordName || formData.propertyAddress || formData.issueDescription
+    );
+    if (!hasStartedFilling) return;
+
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = '';
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [step, formData.tenantName, formData.landlordName, formData.propertyAddress, formData.issueDescription]);
+
   // On mount — check if we're returning from Stripe
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);

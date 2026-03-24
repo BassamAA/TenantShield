@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { renderToBuffer } from '@react-pdf/renderer';
-import { LetterPDF } from '@/lib/pdfGenerator';
+import { spawn } from 'child_process';
+import { join } from 'path';
 import { GeneratedLetter } from '@/types';
-import React from 'react';
 
 export async function POST(req: NextRequest) {
   try {
@@ -13,19 +12,14 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Invalid letter data' }, { status: 400 });
     }
 
-    const element = React.createElement(LetterPDF, { letter });
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const pdfBuffer = await renderToBuffer(element as any);
+    const pdfBuffer = await generatePdfViaWorker(letter);
 
-    // Convert Buffer to Uint8Array for NextResponse compatibility
-    const uint8Array = new Uint8Array(pdfBuffer);
-
-    return new NextResponse(uint8Array, {
+    return new NextResponse(new Uint8Array(pdfBuffer), {
       status: 200,
       headers: {
         'Content-Type': 'application/pdf',
         'Content-Disposition': `attachment; filename="TenantShield-Letter-${letter.jurisdiction}-${letter.issue}.pdf"`,
-        'Content-Length': uint8Array.length.toString(),
+        'Content-Length': pdfBuffer.length.toString(),
       },
     });
   } catch (error) {
@@ -33,4 +27,34 @@ export async function POST(req: NextRequest) {
     const message = error instanceof Error ? error.message : 'PDF generation failed';
     return NextResponse.json({ error: message }, { status: 500 });
   }
+}
+
+function generatePdfViaWorker(letter: GeneratedLetter): Promise<Buffer> {
+  return new Promise((resolve, reject) => {
+    const workerPath = join(process.cwd(), 'scripts', 'pdf-worker.mjs');
+    const child = spawn(process.execPath, [workerPath], {
+      stdio: ['pipe', 'pipe', 'pipe'],
+    });
+
+    const chunks: Buffer[] = [];
+    const errChunks: Buffer[] = [];
+
+    child.stdout.on('data', (chunk: Buffer) => chunks.push(chunk));
+    child.stderr.on('data', (chunk: Buffer) => errChunks.push(chunk));
+
+    child.on('close', (code) => {
+      if (code !== 0) {
+        const errMsg = Buffer.concat(errChunks).toString();
+        reject(new Error(`PDF worker exited with code ${code}: ${errMsg}`));
+      } else {
+        resolve(Buffer.concat(chunks));
+      }
+    });
+
+    child.on('error', (err) => reject(err));
+
+    const input = JSON.stringify(letter);
+    child.stdin.write(input);
+    child.stdin.end();
+  });
 }

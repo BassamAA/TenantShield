@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { GeneratedLetter } from '@/types';
 import { useCurrency } from '@/hooks/useCurrency';
 
@@ -143,7 +144,10 @@ export default function PaymentGate({ letter, onBeforeCheckout }: Props) {
       </div>
 
       <p className="text-center text-xs text-gray-400">
-        Payments processed securely by Stripe. By purchasing, you agree to our Terms of Service.
+        Payments processed securely by Stripe. By purchasing, you agree to our{' '}
+        <Link href="/terms" className="underline hover:text-gray-300 transition-colors">Terms of Service</Link>
+        {' '}and{' '}
+        <Link href="/privacy" className="underline hover:text-gray-300 transition-colors">Privacy Policy</Link>.
       </p>
     </div>
   );
