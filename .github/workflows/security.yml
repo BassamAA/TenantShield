@@ -1,0 +1,103 @@
+name: Security
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Run weekly on Monday at 08:00 UTC
+    - cron: '0 8 * * 1'
+
+jobs:
+  # ── 1. Secret scanning ──────────────────────────────────────────────────────
+  secret-scan:
+    name: Secret Scan (Gitleaks)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history for gitleaks
+
+      - name: Run Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITLEAKS_LICENSE: ${{ secrets.GITLEAKS_LICENSE }}  # optional for public repos
+
+  # ── 2. npm audit ────────────────────────────────────────────────────────────
+  dependency-audit:
+    name: Dependency Audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Audit (high + critical only)
+        run: npm audit --audit-level=high --production
+        continue-on-error: true   # report but don't block on transitive deps
+
+      - name: Check for known critical CVEs
+        run: npm audit --audit-level=critical --production
+
+  # ── 3. Sensitive file check ─────────────────────────────────────────────────
+  sensitive-files:
+    name: Sensitive File Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Ensure .env files are not committed
+        run: |
+          set -e
+          # Fail if any .env file with real content is tracked
+          for f in .env .env.local .env.production .env.development; do
+            if git ls-files --error-unmatch "$f" 2>/dev/null; then
+              echo "❌  $f is tracked in git — remove it immediately with: git rm --cached $f"
+              exit 1
+            fi
+          done
+          echo "✅  No .env files tracked in git"
+
+      - name: Check .env.local.example for real secrets
+        run: |
+          # Warn if .env.local.example contains what look like real keys (sk_live / pk_live)
+          if grep -qE 'sk_live_|pk_live_' .env.local.example 2>/dev/null; then
+            echo "⚠️  WARNING: .env.local.example appears to contain live Stripe keys."
+            echo "    Replace with placeholder values before committing."
+            exit 1
+          fi
+          echo "✅  .env.local.example looks clean"
+
+  # ── 4. CodeQL static analysis ───────────────────────────────────────────────
+  codeql:
+    name: CodeQL Analysis
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      actions: read
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+          queries: security-and-quality
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: /language:javascript-typescript

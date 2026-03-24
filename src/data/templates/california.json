@@ -1,0 +1,338 @@
+[
+  {
+    "jurisdiction": "california",
+    "issue": "mold-moisture",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941 and § 1941.1",
+        "description": "A landlord must put and keep the premises in a habitable condition, including freedom from dampness and mold growth detrimental to health."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17920.3(a)(13)",
+        "description": "Visible mold growth is a substandard condition rendering a building unfit for human habitation."
+      },
+      {
+        "act": "California Civil Code",
+        "section": "§ 1942",
+        "description": "If a landlord fails to repair a substandard condition within a reasonable time after written notice, the tenant may repair and deduct the cost from rent, or vacate the premises."
+      }
+    ],
+    "housingCode": "California Health and Safety Code § 17920 et seq. (Substandard Dwellings)",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement Agency",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to formally notify you of a mold and moisture problem at the above-referenced rental unit, and to demand remediation pursuant to California Civil Code §§ 1941 and 1941.1 and the California Health and Safety Code.",
+    "violationDescription": "The rental unit contains visible mold growth and/or unresolved moisture intrusion. Under California Health and Safety Code § 17920.3(a)(13), visible mold growth constitutes a substandard condition rendering the premises unfit for human habitation.",
+    "legalBasis": "California Civil Code § 1941 requires a landlord to put and keep the premises in a habitable condition. Section 1941.1 specifically lists freedom from dampness and mold growth detrimental to health as conditions required for habitability. California Health and Safety Code § 17920.3(a)(13) designates visible mold growth as a substandard condition. Your failure to remediate this condition constitutes a breach of your statutory duty to maintain habitable premises.",
+    "demands": [
+      "Engage a licensed mold remediation professional to inspect the affected areas within 5 business days of receipt of this letter",
+      "Provide a written remediation plan and timeline within 7 business days",
+      "Complete all mold remediation and moisture source repairs within the stated deadline",
+      "Provide written confirmation of completed remediation"
+    ],
+    "escalationWarning": "If you fail to remediate the mold within the stated deadline, I will exercise my rights under California Civil Code § 1942 to repair and deduct the cost of remediation from rent, and/or will withhold rent until the condition is corrected. I will also file a complaint with the local Code Enforcement Agency and the California Department of Consumer Affairs. Uninhabitable conditions can also subject you to claims for breach of the warranty of habitability, rent abatement, and damages under California law.",
+    "closingStatement": "Please confirm receipt of this letter and provide a written remediation plan within five (5) business days."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "no-heat",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(7)",
+        "description": "Adequate heating facilities, including heating equipment capable of maintaining a room temperature of 70°F, are required for habitable premises."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17920.3",
+        "description": "Lack of required heating constitutes a substandard condition."
+      },
+      {
+        "act": "California Civil Code",
+        "section": "§ 1942",
+        "description": "A tenant may repair and deduct repair costs or abandon the premises if the landlord fails to correct a substandard condition after reasonable notice."
+      }
+    ],
+    "housingCode": "California Health and Safety Code § 17920.3; Title 25 California Code of Regulations § 37 (Heating Standards)",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to provide urgent formal notice that the heating system has failed at the above-referenced rental unit, constituting an emergency under California Civil Code § 1941.1.",
+    "violationDescription": "The rental unit is without adequate heat. California Civil Code § 1941.1(a)(7) requires that landlords provide adequate heating facilities capable of maintaining a minimum temperature of 70°F in habitable rooms. The absence of heat constitutes a habitability defect.",
+    "legalBasis": "California Civil Code § 1941.1(a)(7) mandates adequate heating as a required component of habitable premises. California Health and Safety Code § 17920.3 designates lack of required heating as a substandard condition. Your failure to provide adequate heat constitutes a breach of the implied warranty of habitability under California law.",
+    "demands": [
+      "Restore adequate heat to the rental unit IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Repair or replace the heating equipment as necessary",
+      "Provide written confirmation of the date heat was restored and the repairs performed"
+    ],
+    "escalationWarning": "If heat is not restored within 24 hours, I will exercise my rights under California Civil Code § 1942 to repair and deduct, withhold rent, or vacate the premises, and will file a complaint with the local Code Enforcement Agency. Under California law, I may also pursue a lawsuit for breach of the warranty of habitability, rent abatement, and damages.",
+    "closingStatement": "This is a time-sensitive emergency. Please confirm receipt and advise of the corrective action being taken."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "no-hot-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(3)",
+        "description": "Hot and cold running water connected to a sewage disposal system is required for habitable premises."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17920.3",
+        "description": "Lack of hot and cold water constitutes a substandard condition."
+      }
+    ],
+    "housingCode": "California Health and Safety Code § 17920.3; Title 25 California Code of Regulations",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to provide urgent formal notice that hot water has been interrupted at the above-referenced rental unit, constituting a habitability emergency under California Civil Code § 1941.1.",
+    "violationDescription": "The rental unit is without hot water. California Civil Code § 1941.1(a)(3) requires hot and cold running water as a component of habitable premises.",
+    "legalBasis": "California Civil Code § 1941.1(a)(3) mandates hot and cold running water as essential to habitable premises. The absence of hot water constitutes a breach of the implied warranty of habitability and may constitute a substandard condition under California Health and Safety Code § 17920.3.",
+    "demands": [
+      "Restore hot water to the rental unit IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Repair or replace the water heating equipment as necessary",
+      "Provide written confirmation of the date and time hot water was restored"
+    ],
+    "escalationWarning": "If hot water is not restored within 24 hours, I will exercise my rights under California Civil Code § 1942, file a complaint with local Code Enforcement, and may pursue a claim for breach of the warranty of habitability in California Small Claims Court or Superior Court.",
+    "closingStatement": "This matter requires your immediate attention. Please confirm receipt and advise of corrective action."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "pest-infestation",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(8)",
+        "description": "Premises must be free from infestations of insects, vermin, or rodents as a condition of habitability."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17920.3(a)(11)",
+        "description": "Infestations of insects, vermin, or rodents constitute a substandard condition."
+      },
+      {
+        "act": "California Civil Code",
+        "section": "§ 1942",
+        "description": "A tenant may repair and deduct repair costs if the landlord fails to remedy a habitability defect within a reasonable time after notice."
+      }
+    ],
+    "housingCode": "California Health and Safety Code § 17920.3(a)(11)",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to formally notify you of a pest infestation at the above-referenced rental unit, and to demand remediation pursuant to California Civil Code §§ 1941 and 1941.1.",
+    "violationDescription": "The rental unit is currently infested with pests. California Civil Code § 1941.1(a)(8) requires rental premises to be free from infestations as a condition of habitability.",
+    "legalBasis": "California Civil Code § 1941.1(a)(8) mandates that habitable premises be free from infestations of insects, vermin, or rodents. California Health and Safety Code § 17920.3(a)(11) designates such infestations as substandard conditions. Your failure to address the infestation constitutes a breach of the implied warranty of habitability.",
+    "demands": [
+      "Engage a licensed pest control company to inspect the rental unit within 5 business days",
+      "Provide a written extermination plan and schedule within 7 business days",
+      "Complete professional extermination treatment within the stated deadline",
+      "Seal all known pest entry points and conduct follow-up treatments",
+      "Provide written confirmation of all completed treatments"
+    ],
+    "escalationWarning": "If you fail to address the infestation within the stated deadline, I will exercise my rights under California Civil Code § 1942 to arrange professional pest control and deduct the cost from rent, and will file a complaint with the local Code Enforcement Agency. I may also pursue a lawsuit for breach of the warranty of habitability and rent abatement.",
+    "closingStatement": "Please confirm receipt and provide a written remediation plan within five (5) business days."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "broken-lock",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(9)",
+        "description": "Deadbolt locks on main entry doors and window locks are required for habitable premises."
+      },
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.3",
+        "description": "A landlord must install and maintain deadbolt locks on all main entry doors and window security devices."
+      }
+    ],
+    "housingCode": "California Civil Code § 1941.3 (Deadbolt Lock Requirements)",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to demand emergency repair of a broken lock at the above-referenced rental unit, constituting an urgent safety matter under California Civil Code §§ 1941.1 and 1941.3.",
+    "violationDescription": "A lock or security device at the rental unit is broken, damaged, or non-functional, compromising the physical security of my home.",
+    "legalBasis": "California Civil Code § 1941.1(a)(9) requires deadbolt locks and security devices as components of habitable premises. Section 1941.3 imposes a specific obligation on landlords to install and maintain deadbolt locks on main entry doors. A broken lock constitutes both a habitability defect and a direct violation of these statutory obligations.",
+    "demands": [
+      "Repair or replace the broken lock IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Ensure all entry points are properly secured",
+      "Provide written confirmation of completed repairs"
+    ],
+    "escalationWarning": "If the lock is not repaired within 24 hours, I will arrange emergency lock repair at your expense under California Civil Code § 1942 and will file a complaint with local Code Enforcement. I will document this failure to act and seek all available remedies including damages.",
+    "closingStatement": "This is an urgent security matter. Please confirm receipt and advise of repair timeline immediately."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "plumbing-failure",
+    "deadlineDays": 7,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(2) and (3)",
+        "description": "Effective waterproofing and weather protection, and hot and cold running water, are required for habitable premises."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17920.3",
+        "description": "Faulty or deficient plumbing may constitute a substandard condition."
+      }
+    ],
+    "housingCode": "California Health and Safety Code § 17920.3; California Plumbing Code",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to formally notify you of a plumbing failure at the above-referenced rental unit and to demand prompt repair under California Civil Code § 1941.",
+    "violationDescription": "There is a plumbing failure at the rental unit causing disruption to essential services and potentially damaging the property.",
+    "legalBasis": "California Civil Code § 1941 requires a landlord to maintain rental premises in a habitable condition. Section 1941.1 specifically requires effective plumbing facilities. The current plumbing failure constitutes a breach of the implied warranty of habitability.",
+    "demands": [
+      "Arrange for a licensed plumber to inspect and repair the plumbing failure within the stated deadline",
+      "Restore all affected plumbing fixtures to working order",
+      "Provide written confirmation of completed repairs"
+    ],
+    "escalationWarning": "If the plumbing failure is not repaired within the stated deadline, I will exercise my rights under California Civil Code § 1942 and file a complaint with local Code Enforcement. I may also withhold rent and pursue claims for breach of the warranty of habitability.",
+    "closingStatement": "Please confirm receipt and advise of your repair timeline within three (3) business days."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "electrical-hazard",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(6)",
+        "description": "Electrical lighting and wiring in good working order is required for habitable premises."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17920.3(a)(8)",
+        "description": "Faulty electrical wiring or equipment constitutes a substandard condition."
+      }
+    ],
+    "housingCode": "California Health and Safety Code § 17920.3(a)(8); California Electrical Code",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement / California Department of Housing and Community Development",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to provide urgent formal notice of a serious electrical hazard at the above-referenced rental unit, requiring your immediate action under California Civil Code § 1941.1.",
+    "violationDescription": "There is an electrical hazard at the rental unit posing an immediate risk of fire or electrical shock.",
+    "legalBasis": "California Civil Code § 1941.1(a)(6) requires electrical lighting and wiring in good working order as a condition of habitability. California Health and Safety Code § 17920.3(a)(8) designates faulty electrical wiring or equipment as a substandard condition. The current electrical hazard constitutes an imminent safety threat and a serious breach of your obligations.",
+    "demands": [
+      "Immediately secure or isolate the electrical hazard",
+      "Engage a licensed electrician to inspect the electrical system within 24 hours",
+      "Provide the electrician's findings and remediation plan in writing",
+      "Complete all necessary repairs to bring the system into compliance with the California Electrical Code"
+    ],
+    "escalationWarning": "If this hazard is not addressed within 24 hours, I will contact the local Code Enforcement Agency, the California Department of Housing and Community Development, and local fire authorities. I will also pursue all available legal remedies including rent withholding, repair-and-deduct, and damages.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "no-running-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(3)",
+        "description": "Hot and cold running water connected to a sewage disposal system is required for habitable premises."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17920.3",
+        "description": "Lack of running water constitutes a substandard condition."
+      }
+    ],
+    "housingCode": "California Health and Safety Code § 17920.3",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to formally notify you that running water has been interrupted at the above-referenced rental unit, constituting an emergency under California Civil Code § 1941.1.",
+    "violationDescription": "The rental unit is without running water, rendering the premises unfit for habitation.",
+    "legalBasis": "California Civil Code § 1941.1(a)(3) mandates hot and cold running water as essential to habitable premises. The absence of running water constitutes a serious habitability defect and a substandard condition under California Health and Safety Code § 17920.3.",
+    "demands": [
+      "Restore running water to the rental unit IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Identify and repair the cause of the water supply failure",
+      "Provide written confirmation of the date water was restored"
+    ],
+    "escalationWarning": "If running water is not restored within 24 hours, I will exercise my rights under California Civil Code § 1942, file a complaint with local Code Enforcement, and pursue all available legal remedies.",
+    "closingStatement": "This is an emergency. Please confirm receipt and advise of corrective action immediately."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "fire-safety",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(10)",
+        "description": "Operable deadbolts and smoke detectors are required for habitable premises."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 13113.7",
+        "description": "Smoke detectors must be installed in every sleeping room, outside each sleeping area, and on every level of a dwelling unit."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17926",
+        "description": "Carbon monoxide detectors are required in residential dwelling units."
+      }
+    ],
+    "housingCode": "California Health and Safety Code §§ 13113.7 and 17926; California Fire Code",
+    "regulatoryBody": "California State Fire Marshal / Local Code Enforcement",
+    "regulatoryBodyUrl": "https://osfm.fire.ca.gov/",
+    "openingParagraph": "I am writing to formally notify you of a serious fire safety violation at the above-referenced rental unit, requiring your immediate action under the California Health and Safety Code.",
+    "violationDescription": "There is a fire safety deficiency at the rental unit, which may include non-functioning smoke alarms, missing carbon monoxide detectors, or blocked/non-functional fire exits.",
+    "legalBasis": "California Health and Safety Code § 13113.7 requires operable smoke detectors in all sleeping areas and on every floor of a dwelling unit. Section 17926 requires carbon monoxide detectors. California Civil Code § 1941.1(a)(10) includes smoke detectors as a required component of habitable premises. The current fire safety deficiency constitutes a serious violation and an imminent danger.",
+    "demands": [
+      "Immediately address all fire safety deficiencies",
+      "Inspect, repair, or replace all smoke and carbon monoxide detectors within 24 hours",
+      "Ensure all fire exits are clear and functional",
+      "Provide written confirmation of all corrective actions taken"
+    ],
+    "escalationWarning": "If fire safety deficiencies are not immediately corrected, I will contact the California State Fire Marshal and local fire authorities, who have authority to issue compliance orders and impose substantial fines. I will also file a complaint with local Code Enforcement and pursue all available legal remedies.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required."
+  },
+  {
+    "jurisdiction": "california",
+    "issue": "structural-damage",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "California Civil Code",
+        "section": "§ 1941.1(a)(1)",
+        "description": "Effective waterproofing and weather protection of roof and exterior walls, including unbroken windows and doors, are required for habitable premises."
+      },
+      {
+        "act": "California Health and Safety Code",
+        "section": "§ 17920.3(a)(1) and (2)",
+        "description": "Structural hazards including deteriorated or inadequate foundations, defective floor structures, and deteriorated walls constitute substandard conditions."
+      }
+    ],
+    "housingCode": "California Health and Safety Code § 17920.3; California Building Code",
+    "regulatoryBody": "California Department of Consumer Affairs (DCA) / Local Code Enforcement / Department of Building and Safety",
+    "regulatoryBodyUrl": "https://www.dca.ca.gov/",
+    "openingParagraph": "I am writing to formally notify you of structural damage at the above-referenced rental unit and to demand prompt repair under California Civil Code § 1941.",
+    "violationDescription": "There is significant structural damage to the rental unit that may pose a safety risk and renders the premises partially unfit for habitation.",
+    "legalBasis": "California Civil Code § 1941.1 requires effective weather protection and structural integrity as conditions of habitability. California Health and Safety Code § 17920.3 designates structural hazards as substandard conditions. The current structural damage constitutes a breach of the implied warranty of habitability.",
+    "demands": [
+      "Engage a licensed contractor or structural engineer to assess the damage within 5 business days",
+      "Provide a written repair plan within 10 business days",
+      "Complete all necessary structural repairs within the stated deadline",
+      "Provide written confirmation of completed repairs"
+    ],
+    "escalationWarning": "If structural repairs are not completed within the stated deadline, I will file a complaint with the local Department of Building and Safety and Code Enforcement Agency, and will pursue all available legal remedies including rent withholding, repair-and-deduct under California Civil Code § 1942, and a lawsuit for breach of the warranty of habitability.",
+    "closingStatement": "Please confirm receipt and provide a written remediation plan within five (5) business days."
+  }
+]

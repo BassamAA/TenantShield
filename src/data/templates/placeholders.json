@@ -1,0 +1,50 @@
+{
+  "british-columbia": {
+    "regulatoryBody": "Residential Tenancy Branch (RTB)",
+    "regulatoryBodyUrl": "https://www2.gov.bc.ca/gov/content/housing-tenancy/residential-tenancies",
+    "act": "Residential Tenancy Act, S.B.C. 2002, c. 78",
+    "housingCode": "BC Building Code and local property maintenance bylaws",
+    "deadlineDaysStandard": 14,
+    "deadlineDaysEmergency": 1
+  },
+  "alberta": {
+    "regulatoryBody": "Residential Tenancies Dispute Resolution Service (RTDRS)",
+    "regulatoryBodyUrl": "https://www.alberta.ca/residential-tenancies-dispute-resolution-service.aspx",
+    "act": "Residential Tenancies Act, RSA 2000, c R-17.1",
+    "housingCode": "Alberta Building Code and local property maintenance standards",
+    "deadlineDaysStandard": 14,
+    "deadlineDaysEmergency": 1
+  },
+  "new-york": {
+    "regulatoryBody": "New York State Division of Housing and Community Renewal (DHCR) / NYC Housing Court",
+    "regulatoryBodyUrl": "https://hcr.ny.gov/",
+    "act": "New York Real Property Law § 235-b (Warranty of Habitability); Multiple Dwelling Law",
+    "housingCode": "New York City Housing Maintenance Code; Multiple Dwelling Law",
+    "deadlineDaysStandard": 14,
+    "deadlineDaysEmergency": 1
+  },
+  "texas": {
+    "regulatoryBody": "Texas Department of Housing and Community Affairs (TDHCA) / Justice of the Peace Court",
+    "regulatoryBodyUrl": "https://www.tdhca.state.tx.us/",
+    "act": "Texas Property Code §§ 92.051–92.061 (Landlord's Duty to Repair or Remedy)",
+    "housingCode": "Texas Property Code Chapter 92",
+    "deadlineDaysStandard": 7,
+    "deadlineDaysEmergency": 1
+  },
+  "florida": {
+    "regulatoryBody": "Florida Department of Agriculture and Consumer Services / County Court",
+    "regulatoryBodyUrl": "https://www.fdacs.gov/",
+    "act": "Florida Statutes § 83.51 (Landlord's Obligation to Maintain Premises)",
+    "housingCode": "Florida Building Code; Florida Statutes Chapter 83",
+    "deadlineDaysStandard": 7,
+    "deadlineDaysEmergency": 1
+  },
+  "illinois": {
+    "regulatoryBody": "Chicago Department of Housing (for Chicago) / Illinois Attorney General's Office",
+    "regulatoryBodyUrl": "https://www.chicago.gov/city/en/depts/doh.html",
+    "act": "Illinois Residential Landlord and Tenant Act (RLTA), 765 ILCS 720; Chicago Residential Landlord and Tenant Ordinance (RLTO), Chicago Municipal Code § 5-12",
+    "housingCode": "Chicago Housing Code; Illinois Building Code",
+    "deadlineDaysStandard": 14,
+    "deadlineDaysEmergency": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install --legacy-peer-deps",
+  "env": {
+    "STRIPE_SECRET_KEY": "@stripe-secret-key",
+    "STRIPE_WEBHOOK_SECRET": "@stripe-webhook-secret",
+    "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "@stripe-publishable-key",
+    "NEXT_PUBLIC_BASE_URL": "@app-base-url",
+    "STRIPE_PRICE_ONE_TIME": "@stripe-price-one-time",
+    "STRIPE_PRICE_SUBSCRIPTION": "@stripe-price-subscription",
+    "STRIPE_PRICE_ONE_TIME_CAD": "@stripe-price-one-time-cad",
+    "STRIPE_PRICE_SUBSCRIPTION_CAD": "@stripe-price-subscription-cad"
+  }
+}

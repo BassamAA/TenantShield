@@ -1,0 +1,338 @@
+[
+  {
+    "jurisdiction": "quebec",
+    "issue": "mold-moisture",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1854",
+        "description": "The lessor is bound to deliver the property in a good state of repair in all respects, and to maintain it during the term of the lease, except for deteriorations resulting from the ordinary use of the property."
+      },
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1910",
+        "description": "A lessor may not offer for rent or put up for rent a dwelling that is unfit for habitation."
+      },
+      {
+        "act": "Act Respecting the Régie du Logement, CQLR c R-8.1",
+        "section": "Section 1912",
+        "description": "A dwelling is considered unfit for habitation if it is in a state that constitutes a serious threat to the health or safety of its occupants."
+      }
+    ],
+    "housingCode": "Regulation Respecting the Conditions of Maintenance of Dwellings (RLRQ c C-12, r 3)",
+    "regulatoryBody": "Tribunal administratif du logement (TAL)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to formally notify you of a serious mold and moisture problem at the above-referenced dwelling, and to demand immediate remediation pursuant to the Civil Code of Québec and applicable housing regulations.",
+    "violationDescription": "The dwelling unit contains a significant mold infestation and/or moisture problem that threatens the health and safety of the occupants and renders the premises partially unfit for habitation within the meaning of Article 1910 of the Civil Code of Québec.",
+    "legalBasis": "Under Article 1854 of the Civil Code of Québec, you are obligated to deliver and maintain the dwelling in a good state of repair in all respects. Articles 1910 and 1912 further provide that a dwelling which poses a serious threat to the health or safety of its occupants is deemed unfit for habitation. The presence of mold constitutes a serious health hazard and a direct violation of your obligations as lessor.",
+    "demands": [
+      "Engage a qualified mold remediation professional to inspect the affected areas within 5 business days of receipt of this letter",
+      "Provide a written remediation plan within 7 business days",
+      "Complete all mold remediation and moisture source repairs within the stated deadline",
+      "Provide written confirmation of completed remediation works"
+    ],
+    "escalationWarning": "If you fail to address this matter within the stated deadline, I will file an application with the Tribunal administratif du logement (TAL) pursuant to the Act respecting the Régie du logement, seeking a reduction in rent (diminution de loyer), an order compelling repairs, and/or authorization to terminate the lease due to uninhabitable conditions. I may also file a complaint with my local municipal housing inspector.",
+    "closingStatement": "Please confirm receipt of this letter and provide your written remediation plan within five (5) business days."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "no-heat",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1854",
+        "description": "The lessor is bound to maintain the leased property in a good state of repair throughout the lease term."
+      },
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1912",
+        "description": "A dwelling that constitutes a serious threat to the health or safety of its occupants is deemed unfit for habitation."
+      },
+      {
+        "act": "Regulation Respecting the Conditions of Maintenance of Dwellings",
+        "section": "Section 81",
+        "description": "Heating systems must maintain the dwelling at a minimum temperature of 21 degrees Celsius from September 1 to June 15."
+      }
+    ],
+    "housingCode": "Regulation Respecting the Conditions of Maintenance of Dwellings, Section 81",
+    "regulatoryBody": "Tribunal administratif du logement (TAL)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to provide urgent formal notice that the supply of heat has been interrupted at the above-referenced dwelling. This constitutes an emergency requiring your immediate attention pursuant to the Civil Code of Québec.",
+    "violationDescription": "The dwelling has been without adequate heat since the date noted above, in violation of your obligations as lessor under the Civil Code of Québec and applicable housing regulations.",
+    "legalBasis": "Article 1854 of the Civil Code of Québec requires you to maintain the dwelling in a good state of repair throughout the lease term. The Regulation Respecting the Conditions of Maintenance of Dwellings mandates that heating systems maintain a minimum temperature of 21°C during the heating season. The absence of heat renders the dwelling unfit for habitation under Article 1912 and constitutes a serious breach of your obligations.",
+    "demands": [
+      "Restore adequate heat to the dwelling IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Repair or replace the heating system as necessary",
+      "Provide written confirmation of the date and time heat was restored"
+    ],
+    "escalationWarning": "If heat is not restored within 24 hours, I will file an urgent application with the Tribunal administratif du logement (TAL) for an order compelling restoration of heat, a reduction in rent for the period without heat, and other remedies available under Québec law. I will also contact the local municipal inspector responsible for housing maintenance.",
+    "closingStatement": "This is a time-sensitive emergency. Please confirm receipt and advise of the corrective action being taken immediately."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "no-hot-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1854",
+        "description": "The lessor is bound to maintain the leased property in a good state of repair and provide all facilities essential for habitation."
+      },
+      {
+        "act": "Regulation Respecting the Conditions of Maintenance of Dwellings",
+        "section": "Section 87",
+        "description": "Plumbing systems must supply hot water at a minimum of 45°C to all plumbing fixtures that require hot water."
+      }
+    ],
+    "housingCode": "Regulation Respecting the Conditions of Maintenance of Dwellings, Section 87",
+    "regulatoryBody": "Tribunal administratif du logement (TAL)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to provide urgent formal notice that hot water has been interrupted at the above-referenced dwelling, constituting an emergency requiring your immediate response under the Civil Code of Québec.",
+    "violationDescription": "The dwelling has been without hot water since the date noted above. The absence of hot water renders essential sanitary functions impossible and constitutes a breach of your maintenance obligations.",
+    "legalBasis": "Article 1854 of the Civil Code of Québec requires you to maintain the dwelling in good repair throughout the lease term. The Regulation Respecting the Conditions of Maintenance of Dwellings requires that hot water be supplied at a minimum of 45°C. Failure to restore hot water constitutes a breach of these obligations and may render the dwelling unfit for habitation.",
+    "demands": [
+      "Restore hot water to the dwelling IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Inspect, repair, or replace the water heating equipment",
+      "Provide written confirmation of the date and time hot water was restored"
+    ],
+    "escalationWarning": "If hot water is not restored within 24 hours, I will file an application with the Tribunal administratif du logement (TAL) seeking a reduction in rent and an order compelling repairs. I may also contact the local municipal housing inspector.",
+    "closingStatement": "This matter requires your immediate attention. Please confirm receipt and advise of corrective action."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "pest-infestation",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1854",
+        "description": "The lessor is bound to maintain the dwelling in a good state of repair and fit for habitation throughout the lease."
+      },
+      {
+        "act": "Regulation Respecting the Conditions of Maintenance of Dwellings",
+        "section": "Section 97",
+        "description": "A lessor must take measures to eliminate any pest infestation in a dwelling and ensure the building is protected against re-infestation."
+      },
+      {
+        "act": "Public Health Act, CQLR c S-2.2",
+        "section": "Relevant provisions on health hazards",
+        "description": "Pest infestations may be reported to public health authorities as a threat to public health."
+      }
+    ],
+    "housingCode": "Regulation Respecting the Conditions of Maintenance of Dwellings, Section 97",
+    "regulatoryBody": "Tribunal administratif du logement (TAL)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to formally notify you of a serious pest infestation at the above-referenced dwelling and to demand remediation pursuant to the Civil Code of Québec and applicable housing regulations.",
+    "violationDescription": "The dwelling is currently affected by a pest infestation. This constitutes a serious health hazard and renders the dwelling partially unfit for habitation in contravention of your obligations under the Civil Code of Québec.",
+    "legalBasis": "Article 1854 of the Civil Code of Québec requires you to maintain the dwelling in good repair and fit for habitation. The Regulation Respecting the Conditions of Maintenance of Dwellings requires that pest infestations be eliminated and that the building be protected against re-infestation. A known and unaddressed infestation constitutes a serious breach of your obligations.",
+    "demands": [
+      "Engage a licensed pest control professional to inspect the dwelling within 5 business days",
+      "Provide a written extermination plan and schedule within 7 business days",
+      "Complete professional extermination treatment within the stated deadline",
+      "Seal all entry points and conduct follow-up treatments as recommended",
+      "Provide written confirmation of all completed treatments"
+    ],
+    "escalationWarning": "If you fail to address this infestation within the stated deadline, I will file an application with the Tribunal administratif du logement (TAL) for a reduction in rent and an order compelling remediation. I may also report the infestation to the Direction de santé publique as a public health hazard.",
+    "closingStatement": "Please confirm receipt of this letter and provide your written remediation plan within five (5) business days."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "broken-lock",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1854",
+        "description": "The lessor is bound to maintain the dwelling in good repair including all security fixtures."
+      },
+      {
+        "act": "Regulation Respecting the Conditions of Maintenance of Dwellings",
+        "section": "Sections 60–62",
+        "description": "All doors and windows giving access to a dwelling must be equipped with adequate locking mechanisms."
+      }
+    ],
+    "housingCode": "Regulation Respecting the Conditions of Maintenance of Dwellings, Sections 60–62",
+    "regulatoryBody": "Tribunal administratif du logement (TAL)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to demand emergency repair of a broken lock/security defect at the above-referenced dwelling, constituting an urgent safety matter under the Civil Code of Québec.",
+    "violationDescription": "A lock or security device at the dwelling is broken, damaged, or non-functional, compromising the physical security of my home.",
+    "legalBasis": "Article 1854 of the Civil Code of Québec requires you to maintain the dwelling in good repair. The Regulation Respecting the Conditions of Maintenance of Dwellings requires that all access points be equipped with functional locking mechanisms. A broken lock constitutes a breach of these obligations and an immediate safety risk.",
+    "demands": [
+      "Arrange for immediate repair or replacement of the broken lock, within 24 hours of receipt of this letter",
+      "Ensure all entry points to the dwelling are properly secured",
+      "Provide written confirmation of completed repairs"
+    ],
+    "escalationWarning": "If the lock is not repaired within 24 hours, I will file an urgent application with the Tribunal administratif du logement (TAL) and document any security incidents arising from your failure to act.",
+    "closingStatement": "This is an urgent security matter. Please confirm receipt and advise of your repair timeline immediately."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "plumbing-failure",
+    "deadlineDays": 7,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1854",
+        "description": "The lessor must maintain all systems in the dwelling in good working order."
+      },
+      {
+        "act": "Regulation Respecting the Conditions of Maintenance of Dwellings",
+        "section": "Sections 82–90",
+        "description": "Plumbing installations must be maintained in good working order and adequate supply of water must be maintained."
+      }
+    ],
+    "housingCode": "Regulation Respecting the Conditions of Maintenance of Dwellings, Sections 82–90",
+    "regulatoryBody": "Tribunal administratif du logement (TAL)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to formally notify you of a plumbing failure at the above-referenced dwelling and to demand prompt repair under the Civil Code of Québec.",
+    "violationDescription": "There is a plumbing failure affecting the dwelling, disrupting normal use of the premises.",
+    "legalBasis": "Article 1854 of the Civil Code of Québec requires you to maintain all systems in the dwelling in good working order throughout the lease. The current plumbing failure constitutes a breach of this obligation.",
+    "demands": [
+      "Arrange for a licensed plumber to inspect and repair the plumbing failure within the stated deadline",
+      "Restore all affected plumbing fixtures to proper working order",
+      "Provide written confirmation of completed repairs"
+    ],
+    "escalationWarning": "If the plumbing failure is not repaired within the stated deadline, I will file an application with the Tribunal administratif du logement (TAL) for a reduction in rent and an order compelling repairs.",
+    "closingStatement": "Please confirm receipt and advise of your repair timeline within three (3) business days."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "electrical-hazard",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Articles 1854 and 1912",
+        "description": "The lessor must maintain the dwelling in good repair and must not allow conditions that pose a serious threat to occupant health or safety."
+      },
+      {
+        "act": "An Act Respecting Electrical Installations, CQLR c I-13.01",
+        "section": "Applicable provisions",
+        "description": "All electrical installations in residential buildings must comply with applicable electrical codes and be maintained in a safe condition."
+      }
+    ],
+    "housingCode": "An Act Respecting Electrical Installations, CQLR c I-13.01; Quebec Electrical Code",
+    "regulatoryBody": "Tribunal administratif du logement (TAL) and Régie du bâtiment du Québec (RBQ)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to provide urgent formal notice of a serious electrical hazard at the above-referenced dwelling, requiring your immediate action under the Civil Code of Québec.",
+    "violationDescription": "There is an electrical hazard at the dwelling that poses an immediate risk of fire, electrical shock, or other serious harm.",
+    "legalBasis": "Articles 1854 and 1912 of the Civil Code of Québec require you to maintain the dwelling in good repair and not permit conditions that threaten occupant health or safety. The Act Respecting Electrical Installations requires all electrical systems to comply with the Quebec Electrical Code. The current electrical hazard constitutes a serious breach of these obligations.",
+    "demands": [
+      "Immediately secure or isolate the electrical hazard",
+      "Engage a licensed electrician to inspect the electrical system within 24 hours",
+      "Provide documentation of the electrician's findings and remediation plan",
+      "Complete all necessary repairs to bring the system into code compliance"
+    ],
+    "escalationWarning": "If this hazard is not addressed within 24 hours, I will contact the Régie du bâtiment du Québec (RBQ), file an application with the Tribunal administratif du logement (TAL), and notify local fire authorities if an imminent fire risk exists.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "no-running-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Articles 1854 and 1912",
+        "description": "The lessor must maintain the dwelling in good repair and must not permit conditions that threaten occupant safety."
+      },
+      {
+        "act": "Regulation Respecting the Conditions of Maintenance of Dwellings",
+        "section": "Section 82",
+        "description": "Adequate cold and hot water must be supplied to all plumbing fixtures."
+      }
+    ],
+    "housingCode": "Regulation Respecting the Conditions of Maintenance of Dwellings, Section 82",
+    "regulatoryBody": "Tribunal administratif du logement (TAL)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to formally notify you that running water has been interrupted at the above-referenced dwelling, constituting an emergency under the Civil Code of Québec.",
+    "violationDescription": "The dwelling is without running water, rendering essential sanitary and domestic functions impossible.",
+    "legalBasis": "Articles 1854 and 1912 of the Civil Code of Québec require you to maintain the dwelling in good repair and not permit conditions threatening occupant safety. The Regulation Respecting the Conditions of Maintenance of Dwellings requires adequate water supply at all times.",
+    "demands": [
+      "Restore running water to the dwelling IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Identify and repair the source of the water supply failure",
+      "Confirm in writing the date and time water was restored"
+    ],
+    "escalationWarning": "If running water is not restored within 24 hours, I will file an urgent application with the Tribunal administratif du logement (TAL) and contact the local municipal housing inspector.",
+    "closingStatement": "This is an emergency. Please confirm receipt and advise of corrective action immediately."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "fire-safety",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Articles 1854 and 1912",
+        "description": "The lessor must maintain the dwelling in good repair and must not permit conditions that pose a serious threat to occupant safety."
+      },
+      {
+        "act": "Act Respecting Fire Safety, CQLR c S-3.4",
+        "section": "Applicable provisions",
+        "description": "Building owners must maintain fire safety installations, including smoke alarms, in proper working order."
+      },
+      {
+        "act": "Quebec Building Code (Loi sur le bâtiment, CQLR c B-1.1)",
+        "section": "Fire safety requirements",
+        "description": "All dwellings must maintain compliant fire safety installations including smoke detectors and accessible fire exits."
+      }
+    ],
+    "housingCode": "Act Respecting Fire Safety, CQLR c S-3.4; Quebec Building Code",
+    "regulatoryBody": "Tribunal administratif du logement (TAL) and Direction de la sécurité incendie",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to formally notify you of a serious fire safety violation at the above-referenced dwelling, requiring your immediate action under the Act Respecting Fire Safety and the Civil Code of Québec.",
+    "violationDescription": "There is a fire safety deficiency at the dwelling including one or more of the following: non-functioning smoke alarms, missing carbon monoxide detectors, or blocked/non-functional fire exits.",
+    "legalBasis": "The Act Respecting Fire Safety (CQLR c S-3.4) and the Civil Code of Québec impose mandatory obligations on property owners to maintain fire safety installations in proper working order. Articles 1854 and 1912 of the Civil Code further require that the dwelling not be permitted to fall into a condition that poses a serious threat to occupant safety.",
+    "demands": [
+      "Immediately address all fire safety deficiencies described above",
+      "Inspect, repair, or replace all smoke and carbon monoxide detectors within 24 hours",
+      "Ensure all fire exits are clear and functional",
+      "Provide written confirmation of all corrective actions taken"
+    ],
+    "escalationWarning": "If fire safety deficiencies are not immediately corrected, I will file a complaint with the Direction de la sécurité incendie and the local fire authority, who have authority to issue compliance orders and impose fines. I will also file an application with the Tribunal administratif du logement (TAL).",
+    "closingStatement": "This is a life safety emergency. Immediate action is required."
+  },
+  {
+    "jurisdiction": "quebec",
+    "issue": "structural-damage",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Civil Code of Québec, CQLR c CCQ-1991",
+        "section": "Article 1854",
+        "description": "The lessor is bound to maintain the dwelling in a good state of repair in all respects."
+      },
+      {
+        "act": "Regulation Respecting the Conditions of Maintenance of Dwellings",
+        "section": "Sections 5–20",
+        "description": "Structural components of residential dwellings must be maintained in a safe and sound condition."
+      }
+    ],
+    "housingCode": "Regulation Respecting the Conditions of Maintenance of Dwellings, Sections 5–20",
+    "regulatoryBody": "Tribunal administratif du logement (TAL)",
+    "regulatoryBodyUrl": "https://www.tal.gouv.qc.ca/",
+    "openingParagraph": "Je vous écris / I am writing to formally notify you of structural damage at the above-referenced dwelling and to demand prompt repair pursuant to the Civil Code of Québec.",
+    "violationDescription": "There is significant structural damage to the dwelling that renders it partially unfit for habitation and may pose a safety risk to occupants.",
+    "legalBasis": "Article 1854 of the Civil Code of Québec requires you to maintain the dwelling in a good state of repair in all respects throughout the lease. Structural damage constitutes a direct breach of this obligation.",
+    "demands": [
+      "Engage a qualified professional to assess the structural damage within 5 business days",
+      "Provide a written repair plan within 10 business days",
+      "Complete all necessary structural repairs within the stated deadline",
+      "Provide written confirmation of completed repairs"
+    ],
+    "escalationWarning": "If you fail to address the structural damage within the stated deadline, I will file an application with the Tribunal administratif du logement (TAL) for a reduction in rent and an order compelling repairs, and will report the condition to local municipal building inspectors.",
+    "closingStatement": "Please confirm receipt and provide your written remediation plan within five (5) business days."
+  }
+]

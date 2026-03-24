@@ -1,0 +1,350 @@
+[
+  {
+    "jurisdiction": "ontario",
+    "issue": "mold-moisture",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 20(1)",
+        "description": "A landlord is responsible for providing and maintaining a residential complex, including the rental unit, in a good state of repair and fit for habitation and for complying with health, safety, housing and maintenance standards."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Section 8",
+        "description": "Every part of a rental unit must be maintained in a good state of repair and fit for habitation, including freedom from dampness and moisture."
+      },
+      {
+        "act": "Ontario Building Code Act, R.S.O. 1992, c. B.13",
+        "section": "Section 15.8",
+        "description": "Buildings must be maintained in compliance with standards prescribed under this Act, including standards addressing moisture infiltration and mold."
+      }
+    ],
+    "housingCode": "Ontario Property Standards By-Law and Ontario Regulation 517/06",
+    "regulatoryBody": "Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to formally notify you of a serious and ongoing habitability defect at the above-referenced rental premises. This letter constitutes formal written notice pursuant to the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "There is a significant mold and/or moisture problem affecting the rental unit located at the above address. The presence of mold constitutes a serious health hazard and renders the unit unfit for habitation in contravention of applicable health and maintenance standards.",
+    "legalBasis": "Pursuant to Section 20(1) of the Residential Tenancies Act, 2006, you are legally obligated to maintain the rental unit in a good state of repair and fit for habitation. The presence of mold or unresolved moisture intrusion constitutes a direct violation of this statutory duty, as well as a breach of Ontario Regulation 517/06 (Maintenance Standards) and the Ontario Property Standards By-Law.",
+    "demands": [
+      "Conduct a thorough professional inspection of the affected area(s) within 5 business days of receipt of this letter",
+      "Provide a written remediation plan prepared by a qualified mold remediation professional",
+      "Complete all necessary mold remediation and moisture repairs within the stated deadline",
+      "Identify and permanently repair the source of moisture causing the mold growth",
+      "Provide written confirmation upon completion of all remediation work"
+    ],
+    "escalationWarning": "If you fail to complete the required remediation within the stated deadline, I will have no alternative but to file an application with the Landlord and Tenant Board (LTB) pursuant to Section 29 of the Residential Tenancies Act, 2006 for an order compelling repairs, a rent abatement, and/or other remedies available under the Act. I may also file a complaint with my local municipality's Property Standards Officer, who has authority under the Ontario Building Code Act to issue a Work Order compelling compliance.",
+    "closingStatement": "I trust you will treat this matter with the urgency it deserves. Please confirm receipt of this letter and your intended course of action in writing within five (5) business days."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "no-heat",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 21(1)",
+        "description": "A landlord shall not cause or permit the vital service of heat to be withheld."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Sections 22–23",
+        "description": "A landlord must ensure the rental unit is heated to a minimum temperature of 20 degrees Celsius (68°F) from September 1 to June 15."
+      },
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 29(1)(a)",
+        "description": "A tenant may apply to the Board for an order determining that the landlord has withheld or unreasonably interfered with the supply of a vital service."
+      }
+    ],
+    "housingCode": "Ontario Regulation 517/06, Sections 22–23 (Heating Standards)",
+    "regulatoryBody": "Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to provide urgent formal notice that the supply of heat — a vital service — has been interrupted at the above-referenced rental unit. This constitutes an emergency requiring your immediate attention. This letter is written pursuant to the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "As of the date referenced above, the rental unit has been without adequate heat. The failure to provide heat during the heating season (September 1 to June 15) is a direct violation of your statutory obligations and constitutes withholding of a vital service.",
+    "legalBasis": "Under Section 21(1) of the Residential Tenancies Act, 2006, a landlord shall not cause or permit a vital service — which includes heat — to be withheld. Ontario Regulation 517/06 further mandates that rental units be heated to a minimum of 20°C during the heating season. Failure to restore heat constitutes a serious breach of your landlord obligations and exposes you to significant legal liability.",
+    "demands": [
+      "Restore adequate heat to the rental unit IMMEDIATELY and no later than 24 hours from receipt of this letter",
+      "Identify and repair the root cause of the heating failure",
+      "Provide written confirmation of the repair and the date heat was restored"
+    ],
+    "escalationWarning": "If heat is not restored within 24 hours of receipt of this letter, I will immediately file an emergency application with the Landlord and Tenant Board (LTB) pursuant to Section 29(1) of the Residential Tenancies Act, 2006, seeking an order compelling the restoration of heat, a rent abatement for the period without heat, and any other remedies available under the Act. I will also contact the City of Toronto (or relevant municipal) Property Standards Department to file an emergency complaint. Please note that fines for violations can be substantial.",
+    "closingStatement": "This is a time-sensitive emergency. Your immediate response and action are required. Please confirm receipt of this notice."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "no-hot-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 21(1)",
+        "description": "A landlord shall not withhold a vital service, including hot and cold water."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Section 26",
+        "description": "Hot water must be supplied at a temperature of at least 43 degrees Celsius to all plumbing fixtures in a rental unit that are designed to receive hot water."
+      }
+    ],
+    "housingCode": "Ontario Regulation 517/06, Section 26 (Plumbing Standards)",
+    "regulatoryBody": "Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to provide urgent formal notice that hot water — a vital service — has been interrupted at the above-referenced rental unit. This constitutes an emergency situation requiring your immediate attention and is written pursuant to the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "The rental unit has been without hot water since the date noted above. Hot water is classified as a vital service under Ontario tenancy law, and its absence renders the unit unfit for habitation.",
+    "legalBasis": "Section 21(1) of the Residential Tenancies Act, 2006 expressly prohibits a landlord from causing or permitting a vital service to be withheld. Ontario Regulation 517/06, Section 26 requires that hot water be supplied to all plumbing fixtures at a minimum of 43 degrees Celsius. Withholding hot water constitutes an illegal act under Ontario tenancy law.",
+    "demands": [
+      "Restore hot water to the rental unit IMMEDIATELY and no later than 24 hours from receipt of this letter",
+      "Inspect, repair or replace the water heating equipment as necessary",
+      "Confirm in writing the date and time hot water was restored"
+    ],
+    "escalationWarning": "Should you fail to restore hot water within 24 hours of receipt of this letter, I will file an emergency application with the Landlord and Tenant Board (LTB) under Section 29 of the Residential Tenancies Act, 2006, and will also lodge a complaint with the applicable municipal Property Standards Officer. Both the Board and municipal authorities have broad powers to order compliance, issue fines, and award rent abatements.",
+    "closingStatement": "This matter requires your immediate attention. Please confirm receipt and advise of the corrective action being taken."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "pest-infestation",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 20(1)",
+        "description": "A landlord is responsible for maintaining the residential complex in a good state of repair and fit for habitation, including compliance with health, safety, housing and maintenance standards."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Section 34",
+        "description": "A landlord shall exterminate insects and vermin in a rental unit or residential complex using pest control methods prescribed by regulation."
+      },
+      {
+        "act": "Ontario Public Health Standards",
+        "section": "Infestation response protocols",
+        "description": "Pest infestations in rental housing may be reportable to local Public Health Units as a health hazard."
+      }
+    ],
+    "housingCode": "Ontario Regulation 517/06, Section 34 (Pest Control Requirements)",
+    "regulatoryBody": "Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to formally notify you of a serious pest infestation at the above-referenced rental premises. This notice is served pursuant to the Residential Tenancies Act, 2006, S.O. 2006, c. 17, and constitutes your formal written notice of the infestation and my demand for remediation.",
+    "violationDescription": "The rental unit is currently experiencing a pest infestation. The infestation constitutes a serious health hazard, renders the unit partially unfit for habitation, and violates the mandatory maintenance and habitability standards applicable to residential rental properties in Ontario.",
+    "legalBasis": "Section 20(1) of the Residential Tenancies Act, 2006 requires you to maintain the residential complex in a state fit for habitation and in compliance with applicable health and maintenance standards. Ontario Regulation 517/06, Section 34 specifically requires that landlords exterminate insects and vermin in rental units. Failure to address a known pest infestation constitutes a breach of your statutory maintenance obligations.",
+    "demands": [
+      "Engage a licensed pest control professional to conduct a comprehensive inspection within 5 business days of receipt of this letter",
+      "Provide written confirmation of the scheduled pest control treatment and the name of the pest control company engaged",
+      "Complete professional pest extermination treatment of the entire affected area within the stated deadline",
+      "Implement a follow-up treatment schedule as recommended by the pest control professional",
+      "Seal all known entry points and identify the source of the infestation",
+      "Provide written confirmation of all completed treatments"
+    ],
+    "escalationWarning": "If you fail to take the required remediation steps within the stated deadline, I will file an application with the Landlord and Tenant Board (LTB) pursuant to Section 29 of the Residential Tenancies Act, 2006, and may report the infestation to the local Public Health Unit as a health hazard. I may also pursue remedies including rent abatement for the period during which the unit has been rendered partially unfit for habitation.",
+    "closingStatement": "Please confirm receipt of this letter and provide your written remediation plan within five (5) business days."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "broken-lock",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 20(1)",
+        "description": "A landlord is responsible for maintaining the residential complex in a good state of repair and fit for habitation, including security of the premises."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Section 36",
+        "description": "All exterior doors, windows and other openings of a residential complex must be equipped with adequate locks or other security devices."
+      }
+    ],
+    "housingCode": "Ontario Regulation 517/06, Section 36 (Security and Locks)",
+    "regulatoryBody": "Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to demand emergency repair of a broken lock/security defect at the above-referenced rental unit. This constitutes an urgent security matter requiring immediate attention under the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "A lock or security device at the rental unit is currently broken, damaged, or non-functional. This defect compromises the physical security of my home and constitutes an immediate danger to my personal safety and the safety of my belongings.",
+    "legalBasis": "Under Section 20(1) of the Residential Tenancies Act, 2006, and Ontario Regulation 517/06, Section 36, you are legally obligated to maintain all exterior doors and windows with functioning locks and adequate security devices. A broken lock constitutes both a maintenance failure and a health and safety violation.",
+    "demands": [
+      "Dispatch a licensed locksmith or qualified tradesperson to repair or replace the broken lock IMMEDIATELY, and no later than 24 hours from receipt of this letter",
+      "Ensure all entry points to the rental unit are secured upon completion of repairs",
+      "Provide written confirmation of the repair, including the name of the tradesperson and the date of completion"
+    ],
+    "escalationWarning": "If the lock is not repaired within 24 hours, I will file an emergency application with the Landlord and Tenant Board (LTB) and contact local police to document the security deficiency as a contributing factor in any security incident that may occur. I may also arrange emergency lock repair at your expense pursuant to my rights under the Act.",
+    "closingStatement": "This is an urgent security matter. Please confirm receipt and advise of the repair timeline immediately."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "plumbing-failure",
+    "deadlineDays": 7,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 20(1)",
+        "description": "A landlord is responsible for maintaining the residential complex in a good state of repair and fit for habitation."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Sections 24–27",
+        "description": "Plumbing systems must be maintained in good working order and must supply adequate water at all times."
+      }
+    ],
+    "housingCode": "Ontario Regulation 517/06, Sections 24–27 (Plumbing Standards)",
+    "regulatoryBody": "Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to formally notify you of a plumbing failure affecting the above-referenced rental unit, and to demand prompt repair pursuant to the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "There is currently a plumbing failure affecting the rental unit. This failure is causing disruption to my use and enjoyment of the premises and may pose a health or safety risk if left unaddressed.",
+    "legalBasis": "Section 20(1) of the Residential Tenancies Act, 2006 requires you to maintain all systems in the residential complex in good working order. Ontario Regulation 517/06, Sections 24–27 set out specific plumbing maintenance standards that you are obligated to meet. The current plumbing failure constitutes a breach of these obligations.",
+    "demands": [
+      "Arrange for a licensed plumber to inspect and repair the plumbing failure within the stated deadline",
+      "Ensure all affected plumbing fixtures are restored to proper working order",
+      "Provide written confirmation of the repair, including date completed and the plumber's license number"
+    ],
+    "escalationWarning": "If the plumbing failure is not repaired within the stated deadline, I will file an application with the Landlord and Tenant Board (LTB) and contact the municipal Property Standards Officer to report the violation. I will seek a rent abatement for the period during which the plumbing failure has affected my use and enjoyment of the rental unit.",
+    "closingStatement": "Please confirm receipt of this letter and advise of your repair timeline within three (3) business days."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "electrical-hazard",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 20(1)",
+        "description": "A landlord is responsible for maintaining the residential complex fit for habitation and in compliance with health and safety standards."
+      },
+      {
+        "act": "Ontario Electrical Safety Code and Electrical Safety Authority Act, 1998, S.O. 1998, c. 15, Sched. A",
+        "section": "Applicable installation and safety standards",
+        "description": "All electrical systems and installations in residential buildings must comply with the Ontario Electrical Safety Code and be maintained in a safe condition."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Section 40",
+        "description": "Electrical wiring, equipment and installations must be maintained in a safe condition."
+      }
+    ],
+    "housingCode": "Ontario Electrical Safety Code; Ontario Regulation 517/06, Section 40",
+    "regulatoryBody": "Landlord and Tenant Board (LTB) and Electrical Safety Authority (ESA)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to provide urgent formal notice of a serious electrical hazard at the above-referenced rental unit. This constitutes an emergency requiring your immediate response under the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "There is currently an electrical hazard at the rental unit that poses an immediate risk of fire, electrical shock, or other serious harm to persons and property.",
+    "legalBasis": "Section 20(1) of the Residential Tenancies Act, 2006 requires you to maintain the rental unit in a condition fit for habitation and compliant with all applicable health and safety standards. Ontario Regulation 517/06, Section 40 specifically requires that all electrical systems be maintained in a safe condition. The Ontario Electrical Safety Code sets out mandatory standards with which all electrical systems in residential buildings must comply. The current electrical hazard constitutes an imminent safety risk and a serious breach of your obligations.",
+    "demands": [
+      "Immediately secure or isolate the electrical hazard to prevent risk of fire or injury",
+      "Engage a licensed electrician to inspect the electrical system IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Provide written documentation of the electrician's findings and the remediation plan",
+      "Complete all necessary electrical repairs to bring the system into compliance with the Ontario Electrical Safety Code"
+    ],
+    "escalationWarning": "If this electrical hazard is not addressed within 24 hours, I will contact the Electrical Safety Authority (ESA) directly, file an application with the Landlord and Tenant Board (LTB), and notify the local Fire Department if I believe there is an imminent fire risk. The ESA has authority to order emergency disconnections and to impose penalties for unsafe electrical conditions.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required. Please confirm receipt of this notice and advise of the corrective action being taken."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "no-running-water",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 21(1)",
+        "description": "A landlord shall not cause or permit a vital service to be withheld, including the supply of water."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Section 24",
+        "description": "Plumbing systems must supply adequate cold and hot water at all times."
+      }
+    ],
+    "housingCode": "Ontario Regulation 517/06, Section 24 (Water Supply Standards)",
+    "regulatoryBody": "Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to formally notify you that running water — a vital service — has been interrupted at the above-referenced rental unit. This constitutes an urgent emergency under the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "The rental unit is currently without running water. The absence of running water renders the unit unfit for habitation and constitutes the withholding of a vital service under Ontario law.",
+    "legalBasis": "Section 21(1) of the Residential Tenancies Act, 2006 expressly prohibits a landlord from causing or permitting a vital service — which includes water — to be withheld. Ontario Regulation 517/06, Section 24 requires that adequate water supply be maintained at all times.",
+    "demands": [
+      "Restore running water to the rental unit IMMEDIATELY, within 24 hours of receipt of this letter",
+      "Identify and repair the cause of the water supply failure",
+      "Provide written confirmation of the date and time water was restored"
+    ],
+    "escalationWarning": "If running water is not restored within 24 hours, I will immediately file an emergency application with the Landlord and Tenant Board (LTB) pursuant to Section 29(1) of the Residential Tenancies Act, 2006, and will contact the local municipal Property Standards Officer. The Board has authority to award immediate rent abatement and other remedies.",
+    "closingStatement": "This is an urgent matter. Please confirm receipt and advise of the restoration timeline immediately."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "fire-safety",
+    "deadlineDays": 1,
+    "isEmergency": true,
+    "legalCitations": [
+      {
+        "act": "Fire Protection and Prevention Act, 1997, S.O. 1997, c. 4",
+        "section": "Section 28",
+        "description": "Owners are required to maintain buildings and premises in compliance with fire safety standards, including working smoke and carbon monoxide alarms."
+      },
+      {
+        "act": "Ontario Fire Code, O. Reg. 213/07",
+        "section": "Sections 2.13 and 3.2",
+        "description": "Smoke alarms must be installed and maintained in proper working order on every storey and in every sleeping area of a dwelling unit."
+      },
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 20(1)",
+        "description": "A landlord is responsible for maintaining the rental premises in compliance with applicable health and safety standards."
+      }
+    ],
+    "housingCode": "Ontario Fire Code, O. Reg. 213/07; Fire Protection and Prevention Act, 1997",
+    "regulatoryBody": "Office of the Fire Marshal (Ontario) and Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to formally notify you of a serious fire safety violation at the above-referenced rental unit. This constitutes a life safety emergency requiring your immediate attention under the Ontario Fire Code and the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "There is currently a fire safety violation at the rental unit, which may include non-functioning smoke alarms, blocked fire exits, or other conditions that pose an immediate risk to the safety and lives of occupants.",
+    "legalBasis": "The Ontario Fire Code (O. Reg. 213/07) and the Fire Protection and Prevention Act, 1997 impose mandatory obligations on property owners to maintain fire safety equipment and ensure unobstructed fire exits. Section 20(1) of the Residential Tenancies Act, 2006 further requires compliance with all applicable health and safety standards. The current fire safety deficiency constitutes a serious violation of these obligations and an imminent danger.",
+    "demands": [
+      "Immediately address the fire safety deficiency described above",
+      "Inspect, repair, or replace all smoke and carbon monoxide alarms within 24 hours",
+      "Ensure all fire exits are clear, unobstructed, and functional",
+      "Provide written confirmation of all corrective actions taken"
+    ],
+    "escalationWarning": "If the fire safety deficiency is not immediately corrected, I will contact the Office of the Fire Marshal and local Fire Department, who have authority to issue Orders to Remedy Unsafe Conditions, impose fines, and require immediate corrective action. I will also file an application with the Landlord and Tenant Board (LTB) for appropriate remedies under the Residential Tenancies Act, 2006.",
+    "closingStatement": "This is a life safety emergency. Immediate action is required. Please confirm receipt and advise of corrective action taken."
+  },
+  {
+    "jurisdiction": "ontario",
+    "issue": "structural-damage",
+    "deadlineDays": 14,
+    "isEmergency": false,
+    "legalCitations": [
+      {
+        "act": "Residential Tenancies Act, 2006, S.O. 2006, c. 17",
+        "section": "Section 20(1)",
+        "description": "A landlord is responsible for maintaining the residential complex in a good state of repair and fit for habitation."
+      },
+      {
+        "act": "Ontario Building Code Act, R.S.O. 1992, c. B.13",
+        "section": "Section 15.9",
+        "description": "Buildings must be structurally sound and maintained to prevent hazardous conditions."
+      },
+      {
+        "act": "Ontario Regulation 517/06 — Maintenance Standards",
+        "section": "Sections 5–8",
+        "description": "Structural components of residential buildings must be maintained in a safe and structurally sound condition."
+      }
+    ],
+    "housingCode": "Ontario Building Code Act; Ontario Regulation 517/06, Sections 5–8",
+    "regulatoryBody": "Landlord and Tenant Board (LTB)",
+    "regulatoryBodyUrl": "https://tribunalsontario.ca/ltb/",
+    "openingParagraph": "I am writing to formally notify you of structural damage affecting the above-referenced rental premises, and to demand prompt repair pursuant to the Residential Tenancies Act, 2006, S.O. 2006, c. 17.",
+    "violationDescription": "There is significant structural damage to the rental unit or residential complex that renders the premises partially unfit for habitation and may pose a safety risk to occupants.",
+    "legalBasis": "Section 20(1) of the Residential Tenancies Act, 2006 requires you to maintain the residential complex in a good state of repair and fit for habitation. Ontario Regulation 517/06, Sections 5–8 set out mandatory structural maintenance standards. The current structural damage constitutes a breach of these obligations.",
+    "demands": [
+      "Engage a qualified structural engineer or licensed contractor to assess the damage within 5 business days of receipt of this letter",
+      "Provide a written repair plan and timeline within 10 business days",
+      "Complete all necessary structural repairs within the stated deadline",
+      "Provide written confirmation of all completed repairs, including contractor information"
+    ],
+    "escalationWarning": "If you fail to take the required remediation steps within the stated deadline, I will file an application with the Landlord and Tenant Board (LTB) pursuant to Section 29 of the Residential Tenancies Act, 2006, and will report the structural deficiency to the municipal Building Department/Property Standards Officer, who has authority under the Ontario Building Code Act to issue Work Orders compelling immediate repair.",
+    "closingStatement": "Please confirm receipt of this letter and provide your written remediation plan within five (5) business days."
+  }
+]

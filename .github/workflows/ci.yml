@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-and-lint:
+    name: Typecheck, Lint & Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Lint
+        run: npx next lint
+
+      - name: Build
+        env:
+          # Dummy values so build doesn't crash on missing env vars
+          STRIPE_SECRET_KEY: dummy_stripe_secret_key_for_ci_build_only
+          STRIPE_WEBHOOK_SECRET: whsec_ci_placeholder
+          NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: dummy_stripe_publishable_key_for_ci
+          NEXT_PUBLIC_BASE_URL: https://tenantshield.com
+          STRIPE_PRICE_ONE_TIME: price_ci_placeholder
+          STRIPE_PRICE_SUBSCRIPTION: price_ci_placeholder
+          STRIPE_PRICE_ONE_TIME_CAD: price_ci_placeholder
+          STRIPE_PRICE_SUBSCRIPTION_CAD: price_ci_placeholder
+        run: npm run build
